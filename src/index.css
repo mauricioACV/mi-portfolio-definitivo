@@ -151,7 +151,7 @@ body {
   z-index: 10;
   list-style: none;
   transform: translatey(-100%);
-  opacity: .4;
+  opacity: .3;
 }
 
 .close-icon-container {
@@ -363,6 +363,47 @@ body {
   font-weight: bold;
 }
 
+/* ************************ SECTION CONTENT ************************ */
+
+.overlap {
+  margin-top: -55px;
+}
+
+.section-container {
+  width: 100%;
+  padding: 20px;
+}
+
+.content-container {
+  padding: 30px 5px;
+  background: #262b35;
+  box-shadow: 2px 6px 39px -8px rgba(0, 0, 0, 0.73);
+  border-radius: 7px;
+}
+
+.tag-section-title {
+  font-family: "Kalam", cursive;
+  font-size: 20px;
+  color: var(--primary-green);
+}
+
+.section-title-container {
+  padding-left: 30px;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 44px;
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+}
+/* ************************ SECTION CONTENT ************************ */
+
+
 /* ***********************************************************
 ************************ MAIN CONTENT ************************
 ************************************************************** */
@@ -453,7 +494,6 @@ body {
 @media screen and (max-width: 690px) {
   #check-van-mobile:checked ~ .nav-menu-movil {
     transform: translatey(0%);
-    transition: 0.5s ease-in-out all;
     opacity: 1;
   }
   .header {
@@ -511,9 +551,6 @@ body {
   .section-r-card {
     display: none;
   }
-  .cards-container {
-    padding-bottom: 5px;
-  }
   .section-r-mobile-cards {
     display: block;
     width: 100%;
@@ -523,6 +560,9 @@ body {
   }
   .section-r-title {
     font-size: 18px;
+  }
+  .content-container {
+    padding-bottom: 5px;
   }
   .footer-mobile {
     padding: 10px;
@@ -584,9 +624,12 @@ body {
 /* ***++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 @media screen and (max-width: 320px) {
-  .section-l-up,
-  .intro-foot-text {
+  .section-l-up {
     display: none;
+  }
+  .intro-section-l{
+    padding-top: 10px;
+    margin-bottom: 15px;
   }
   .btn-about {
     margin-top: 10px;

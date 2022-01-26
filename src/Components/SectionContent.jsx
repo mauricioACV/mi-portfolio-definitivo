@@ -1,35 +1,23 @@
-import CardProyectDetails from "./CardProyectDetails";
+import AboutSection from "./AboutSection";
+import ProjectsSection from "./ProjectsSection";
+import BlogSection from "./BlogSection";
+import ContactSection from "./ContactSection";
 
-export default function SectionContent() {
+export default function SectionContent({ section }) {
+  console.log(section);
   return (
-    <section class="works-section overlap">
-      <div class="cards-container">
-        <CardsContainerTitle title="Proyectos"/>
-        <div class="cards-block3-container">
-          <CardProyectDetails />
-          <CardProyectDetails />
-          <CardProyectDetails />
-        </div>
-        <div class="cards-block3-container">
-          <CardProyectDetails />
-          <CardProyectDetails />
-          <CardProyectDetails />
-        </div>
-        <div class="cards-block3-container">
-          <CardProyectDetails />
-          <CardProyectDetails />
-        </div>
+    <section className="section-container overlap">
+      <div className="content-container">
+        <RenderSection section={section} />
       </div>
     </section>
   );
 }
 
-function CardsContainerTitle({title}) {
-  return (
-    <div class="section-title-container">
-      <p class="tag-section-title">&#60;&#62;</p>
-      <h2 class="section-title">{title}</h2>
-      <p class="tag-section-title">&#60;&#47;&#62;</p>
-    </div>
-  );
-};
+function RenderSection({ section }) {
+  if (section === "PROYECTOS") return <ProjectsSection/>;
+  if (section === "SOBRE MÍ") return <AboutSection />;
+  if (section === "BLOG") return <BlogSection />;
+  if (section === "CONTACTO") return <ContactSection />;
+  return "";
+}
