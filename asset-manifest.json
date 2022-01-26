@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/github.io/portfolio/static/css/main.df5d7a09.css",
-    "main.js": "/github.io/portfolio/static/js/main.a0409e05.js",
-    "static/media/back-img-developer-d.jpg": "/github.io/portfolio/static/media/back-img-developer-d.ff15f493c1a2c582679f.jpg",
-    "static/media/close.svg": "/github.io/portfolio/static/media/close.b95cf370b8dd8936b67d896cf12d17e1.svg",
-    "static/media/linkedin.svg": "/github.io/portfolio/static/media/linkedin.7defd339fd92d3e5fa034b24a5f10ed6.svg",
-    "static/media/email.svg": "/github.io/portfolio/static/media/email.ad1e6a86553fc76e65d958119ae8359d.svg",
-    "static/media/github.svg": "/github.io/portfolio/static/media/github.2b4b2a8b972aa7d30981e4b44991140a.svg",
-    "index.html": "/github.io/portfolio/index.html",
-    "static/media/logo-dark-socket.svg": "/github.io/portfolio/static/media/logo-dark-socket.15f2035c592a4a1addf7a00aa350be4f.svg",
-    "static/media/arrow-circle-right.svg": "/github.io/portfolio/static/media/arrow-circle-right.0a8b27e2a01301ca5978014cac3de489.svg",
-    "main.df5d7a09.css.map": "/github.io/portfolio/static/css/main.df5d7a09.css.map",
-    "main.a0409e05.js.map": "/github.io/portfolio/static/js/main.a0409e05.js.map"
+    "main.css": "/portfolio/static/css/main.12e29697.css",
+    "main.js": "/portfolio/static/js/main.12a76bd3.js",
+    "static/media/back-img-developer-d.jpg": "/portfolio/static/media/back-img-developer-d.ff15f493c1a2c582679f.jpg",
+    "static/media/close.svg": "/portfolio/static/media/close.b95cf370b8dd8936b67d896cf12d17e1.svg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.7defd339fd92d3e5fa034b24a5f10ed6.svg",
+    "static/media/email.svg": "/portfolio/static/media/email.ad1e6a86553fc76e65d958119ae8359d.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.2b4b2a8b972aa7d30981e4b44991140a.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/logo-dark-socket.svg": "/portfolio/static/media/logo-dark-socket.15f2035c592a4a1addf7a00aa350be4f.svg",
+    "static/media/arrow-circle-right.svg": "/portfolio/static/media/arrow-circle-right.0a8b27e2a01301ca5978014cac3de489.svg",
+    "main.12e29697.css.map": "/portfolio/static/css/main.12e29697.css.map",
+    "main.12a76bd3.js.map": "/portfolio/static/js/main.12a76bd3.js.map"
   },
   "entrypoints": [
-    "static/css/main.df5d7a09.css",
-    "static/js/main.a0409e05.js"
+    "static/css/main.12e29697.css",
+    "static/js/main.12a76bd3.js"
   ]
 }
