@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/github.io/mi-portfolio-definitivo/static/css/main.958d3912.css",
+    "main.js": "/github.io/mi-portfolio-definitivo/static/js/main.5a00183d.js",
+    "static/media/back-img-developer-d.jpg": "/github.io/mi-portfolio-definitivo/static/media/back-img-developer-d.ff15f493c1a2c582679f.jpg",
+    "static/media/close.svg": "/github.io/mi-portfolio-definitivo/static/media/close.b95cf370b8dd8936b67d896cf12d17e1.svg",
+    "static/media/linkedin.svg": "/github.io/mi-portfolio-definitivo/static/media/linkedin.7defd339fd92d3e5fa034b24a5f10ed6.svg",
+    "static/media/email.svg": "/github.io/mi-portfolio-definitivo/static/media/email.ad1e6a86553fc76e65d958119ae8359d.svg",
+    "static/media/github.svg": "/github.io/mi-portfolio-definitivo/static/media/github.2b4b2a8b972aa7d30981e4b44991140a.svg",
+    "index.html": "/github.io/mi-portfolio-definitivo/index.html",
+    "static/media/logo-dark-socket.svg": "/github.io/mi-portfolio-definitivo/static/media/logo-dark-socket.15f2035c592a4a1addf7a00aa350be4f.svg",
+    "static/media/arrow-circle-right.svg": "/github.io/mi-portfolio-definitivo/static/media/arrow-circle-right.0a8b27e2a01301ca5978014cac3de489.svg",
+    "main.958d3912.css.map": "/github.io/mi-portfolio-definitivo/static/css/main.958d3912.css.map",
+    "main.5a00183d.js.map": "/github.io/mi-portfolio-definitivo/static/js/main.5a00183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.958d3912.css",
+    "static/js/main.5a00183d.js"
+  ]
+}
