@@ -16,7 +16,7 @@
 }
 
 :root {
-  --primary-green: rgb(32, 165, 103);
+  --green-page: rgb(32, 165, 103);
 }
 
 body {
@@ -274,7 +274,7 @@ body {
 .foot-text {
   font-size: 18px;
   margin: 0px 5px;
-  color: var(--primary-green);
+  color: var(--green-page);
 }
 
 .btn-about {
@@ -286,8 +286,8 @@ body {
   height: 60px;
   border-radius: 5px;
   background: #20232a;
-  color: var(--primary-green);
-  border: 1px solid var(--primary-green);
+  color: var(--green-page);
+  border: 1px solid var(--green-page);
   box-shadow: 9px 9px 23px 0px rgba(0, 0, 0, 0.67);
   cursor: pointer;
   will-change: transform;
@@ -312,7 +312,7 @@ body {
 }
 
 .btn-about:hover {
-  background: var(--primary-green);
+  background: var(--green-page);
   color: #20232a;
   border: #20232a;
 }
@@ -384,7 +384,7 @@ body {
 .tag-section-title {
   font-family: "Kalam", cursive;
   font-size: 20px;
-  color: var(--primary-green);
+  color: var(--green-page);
 }
 
 .section-title-container {
@@ -498,7 +498,7 @@ body {
   }
   .header {
     padding: 5px 30px;
-    margin: 0px;
+    margin: 15px 0px 0px 0px;
     height: 10%;
   }
   .nav,
