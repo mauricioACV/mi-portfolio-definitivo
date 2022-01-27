@@ -1,4 +1,4 @@
-export default function SectionIntro() {
+export default function SectionIntro({ setSection }) {
   return (
     <>
       <section className="intro-section">
@@ -15,14 +15,16 @@ export default function SectionIntro() {
               </p>
               <p className="p-foot-text f-end">&#60;&#47;p&#62;</p>
             </div>
-            <button className="btn-about">
-              <p>Conoce más sobre mí</p>
-              <img
-                className="btn-about-img"
-                src={require("../imgs/svg/arrow-circle-right.svg").default}
-                alt=""
-              />
-            </button>
+            <a className="btn-about-a" href="#section-content" onClick={()=>setSection("SOBRE MÍ")}>
+              <button className="btn-about">
+                <p>Conoce más sobre mí</p>
+                <img
+                  className="btn-about-img"
+                  src={require("../imgs/svg/arrow-circle-right.svg").default}
+                  alt=""
+                />
+              </button>
+            </a>
           </div>
         </div>
         <div className="intro-section-r">

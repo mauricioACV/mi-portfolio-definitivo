@@ -23,6 +23,7 @@ function BurguerMenuNav() {
 function NavMobileOptions({ setSection }) {
   const handleSectionclick = (e) => {
     setSection(e.target.textContent.toUpperCase());
+    document.getElementById("check-van-mobile").checked = false;
   };
 
   return (
@@ -34,19 +35,19 @@ function NavMobileOptions({ setSection }) {
       </div>
       <div className="nav-mobile-options">
         <li onClick={handleSectionclick}>
-          <label htmlFor="check-van-mobile">HOME</label>
+          <a href="#section-content">SOBRE MÍ</a>
         </li>
         <li onClick={handleSectionclick}>
-          <label htmlFor="check-van-mobile">SOBRE MÍ</label>
+          <a href="#section-content">PROYECTOS</a>
         </li>
         <li onClick={handleSectionclick}>
-          <label htmlFor="check-van-mobile">PROYECTOS</label>
+          <a href="#section-content">SKILLS</a>
         </li>
         <li onClick={handleSectionclick}>
-          <label htmlFor="check-van-mobile">BLOG</label>
+          <a href="#section-content">BLOG</a>
         </li>
         <li onClick={handleSectionclick}>
-          <label htmlFor="check-van-mobile">CONTACTO</label>
+          <a href="#section-content">CONTACTO</a>
         </li>
       </div>
       <SocialMediaNavMobile />

@@ -5,12 +5,12 @@ import SectionContent from "./Components/SectionContent";
 import SectionIntro from "./Components/SectionIntro";
 
 function App() {
-  const [section, setSection] = useState("Proyectos");
+  const [section, setSection] = useState("SOBRE MÍ");
   return (
     <>
       <Header setSection={setSection} />
       <main className="main-content">
-        <SectionIntro/>
+        <SectionIntro setSection={setSection}/>
         <SectionContent section={section} />
       </main>
       <Footer/>

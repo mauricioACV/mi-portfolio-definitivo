@@ -223,9 +223,6 @@
 
 /* ***++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 @media screen and (max-width: 690px) {
-  .overlap {
-    margin: 0px;
-  }
   .wrapper {
     margin: 15px 10px;
   }
@@ -240,12 +237,5 @@
   }
   .productSpecifications p {
     font-size: 13px;
-  }
-}
-
-@media screen and (max-width: 791px) {
-  .section-title-container {
-    padding-left: 0px;
-    justify-content: center;
   }
 }
