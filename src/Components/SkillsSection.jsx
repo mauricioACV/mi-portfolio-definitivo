@@ -4,7 +4,7 @@ export default function SkillsSection() {
   return (
     <>
       <SectionContentTitle title="Habilidades" />
-      <div className="content-section">
+      <div className="content-section skills-style">
         <div className="item-container">
           <h3>Competente: Uso diario</h3>
           <ul className="style-content">
@@ -20,7 +20,7 @@ export default function SkillsSection() {
           </ul>
         </div>
         <div className="item-container">
-          <h3>Intermedio: Uso Periódico</h3>
+          <h3>Productivo: Uso Periódico</h3>
           <ul className="style-content">
             <li>Oracle 11g</li>
             <li>SQL Server</li>
@@ -33,7 +33,7 @@ export default function SkillsSection() {
           </ul>
         </div>
         <div className="item-container">
-          <h3>Productivo: Uso Esporádico</h3>
+          <h3>Intermedio: Uso Esporádico</h3>
           <ul className="style-content">
             <li>MariaDB - MYSQL</li>
             <li>MongoDb</li>

@@ -8,7 +8,7 @@ function App() {
   const [section, setSection] = useState("SOBRE MÍ");
   return (
     <>
-      <Header setSection={setSection} />
+      <Header section={section} setSection={setSection} />
       <main className="main-content">
         <SectionIntro setSection={setSection}/>
         <SectionContent section={section} />

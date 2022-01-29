@@ -1,14 +1,22 @@
 export default function HeaderSocialMedia() {
   return (
     <div className="socialmedia">
-      <a href="#">
+      <a
+        href="https://www.linkedin.com/in/mauricio-campusano-villarroel/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           className="socialmedia-img"
           src={require("../imgs/svg/linkedin.svg").default}
           alt=""
         />
       </a>
-      <a href="#">
+      <a
+        href="https://github.com/mauricioACV"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           className="socialmedia-img"
           src={require("../imgs/svg/github.svg").default}

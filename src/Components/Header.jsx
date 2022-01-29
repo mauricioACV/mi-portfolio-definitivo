@@ -3,7 +3,7 @@ import HeaderSocialMedia from "./HeaderSocialMedia";
 import NavDesk from "./NavDesk";
 import NavMobile from "./NavMobile";
 
-export default function Header({setSection}) {
+export default function Header({section, setSection}) {
   return (
     <>
       <header className="header">
@@ -14,7 +14,7 @@ export default function Header({setSection}) {
         <div className="title-nav-mobile">
           <p className="text-logo-mobile">mauro.dev</p>
         </div>
-        <NavDesk setSection={setSection} />
+        <NavDesk section={section} setSection={setSection} />
         <HeaderSocialMedia />
         <NavMobile setSection={setSection} />
       </header>

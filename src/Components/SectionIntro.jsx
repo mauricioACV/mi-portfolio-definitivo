@@ -15,16 +15,19 @@ export default function SectionIntro({ setSection }) {
               </p>
               <p className="p-foot-text f-end">&#60;&#47;p&#62;</p>
             </div>
-            <a className="btn-about-a" href="#section-content" onClick={()=>setSection("SOBRE MÍ")}>
-              <button className="btn-about">
+            <button
+              className="btn-about"
+              onClick={() => setSection("SOBRE MÍ")}
+            >
+              <a className="btn-about-a" href="#section-content">
                 <p>Conoce más sobre mí</p>
-                <img
-                  className="btn-about-img"
-                  src={require("../imgs/svg/arrow-circle-right.svg").default}
-                  alt=""
-                />
-              </button>
-            </a>
+              </a>
+              <img
+                className="btn-about-img"
+                src={require("../imgs/svg/arrow-circle-right.svg").default}
+                alt=""
+              />
+            </button>
           </div>
         </div>
         <div className="intro-section-r">

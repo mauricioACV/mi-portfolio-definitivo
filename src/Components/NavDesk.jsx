@@ -1,5 +1,4 @@
-export default function NavDesk({ setSection }) {
-
+export default function NavDesk({ section, setSection }) {
   const handleSectionclick = (e) => {
     setSection(e.target.textContent.toUpperCase());
   };
@@ -7,25 +6,30 @@ export default function NavDesk({ setSection }) {
   return (
     <nav className="nav">
       <ul className="nav__list">
-        <li className="nav__list-item" onClick={handleSectionclick}>
-          <p>
+        <li className={`nav__list-item ${section==="SOBRE MÍ" ? "active":""}`}>
+          <a href="#section-content" onClick={handleSectionclick}>
             Sobre Mí
-          </p>
+          </a>
         </li>
-        <li className="nav__list-item active" onClick={handleSectionclick} >
-          <p>
+        <li className={`nav__list-item ${section==="PROYECTOS" ? "active":""}`}>
+          <a href="#section-content" onClick={handleSectionclick}>
             Proyectos
-          </p>
+          </a>
         </li>
-        <li className="nav__list-item" onClick={handleSectionclick} >
-          <p>
+        <li className={`nav__list-item ${section==="SKILLS" ? "active":""}`}>
+          <a href="#section-content" onClick={handleSectionclick}>
+            Skills
+          </a>
+        </li>
+        <li className={`nav__list-item ${section==="BLOG" ? "active":""}`}>
+          <a href="#section-content" onClick={handleSectionclick}>
             Blog
-          </p>
+          </a>
         </li>
-        <li className="nav__list-item" onClick={handleSectionclick} >
-          <p>
+        <li className={`nav__list-item ${section==="CONTACTO" ? "active":""}`}>
+          <a href="#section-content" onClick={handleSectionclick}>
             Contacto
-          </p>
+          </a>
         </li>
       </ul>
     </nav>

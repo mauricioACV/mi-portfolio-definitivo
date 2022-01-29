@@ -34,20 +34,30 @@ function NavMobileOptions({ setSection }) {
         </label>
       </div>
       <div className="nav-mobile-options">
-        <li onClick={handleSectionclick}>
-          <a href="#section-content">SOBRE MÍ</a>
+        <li>
+          <a href="#section-content" onClick={handleSectionclick}>
+            SOBRE MÍ
+          </a>
         </li>
-        <li onClick={handleSectionclick}>
-          <a href="#section-content">PROYECTOS</a>
+        <li>
+          <a href="#section-content" onClick={handleSectionclick}>
+            PROYECTOS
+          </a>
         </li>
-        <li onClick={handleSectionclick}>
-          <a href="#section-content">SKILLS</a>
+        <li>
+          <a href="#section-content" onClick={handleSectionclick}>
+            SKILLS
+          </a>
         </li>
-        <li onClick={handleSectionclick}>
-          <a href="#section-content">BLOG</a>
+        <li>
+          <a href="#section-content" onClick={handleSectionclick}>
+            BLOG
+          </a>
         </li>
-        <li onClick={handleSectionclick}>
-          <a href="#section-content">CONTACTO</a>
+        <li>
+          <a href="#section-content" onClick={handleSectionclick}>
+            CONTACTO
+          </a>
         </li>
       </div>
       <SocialMediaNavMobile />
@@ -58,16 +68,28 @@ function NavMobileOptions({ setSection }) {
 function SocialMediaNavMobile() {
   return (
     <div className="socialmedia-nav-mobile">
-      <img
-        className="socialmedia-img"
-        src={require("../imgs/svg/linkedin.svg").default}
-        alt=""
-      />
-      <img
-        className="socialmedia-img"
-        src={require("../imgs/svg/github.svg").default}
-        alt=""
-      />
+      <a
+        href="https://www.linkedin.com/in/mauricio-campusano-villarroel/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          className="socialmedia-img"
+          src={require("../imgs/svg/linkedin.svg").default}
+          alt=""
+        />
+      </a>
+      <a
+        href="https://github.com/mauricioACV"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          className="socialmedia-img"
+          src={require("../imgs/svg/github.svg").default}
+          alt=""
+        />
+      </a>
       <img
         className="socialmedia-img"
         src={require("../imgs/svg/email.svg").default}
