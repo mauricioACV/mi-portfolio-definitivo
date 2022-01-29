@@ -49,11 +49,11 @@ function NavMobileOptions({ setSection }) {
             SKILLS
           </a>
         </li>
-        <li>
+        {/* <li>
           <a href="#section-content" onClick={handleSectionclick}>
             BLOG
           </a>
-        </li>
+        </li> */}
         <li>
           <a href="#section-content" onClick={handleSectionclick}>
             CONTACTO

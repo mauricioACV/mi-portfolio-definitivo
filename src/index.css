@@ -554,7 +554,7 @@ html a {
 /* ***++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 @media screen and (min-width: 1440px) {
   .intro-section {
-    padding: 10px 150px 10px 180px;
+    padding: 10px 150px 10px 200px;
   }
   .section-container {
     display: flex;

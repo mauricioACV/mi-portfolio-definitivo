@@ -21,11 +21,11 @@ export default function NavDesk({ section, setSection }) {
             Skills
           </a>
         </li>
-        <li className={`nav__list-item ${section==="BLOG" ? "active":""}`}>
+        {/* <li className={`nav__list-item ${section==="BLOG" ? "active":""}`}>
           <a href="#section-content" onClick={handleSectionclick}>
             Blog
           </a>
-        </li>
+        </li> */}
         <li className={`nav__list-item ${section==="CONTACTO" ? "active":""}`}>
           <a href="#section-content" onClick={handleSectionclick}>
             Contacto

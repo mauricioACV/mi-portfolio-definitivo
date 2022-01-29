@@ -1,4 +1,9 @@
+import { useState } from "react";
+import ModalProjectDetail from "./ModalProjectDetail";
+
 export default function CardProyectDetails() {
+  const [openModal, setOpenModal] = useState(false);
+
   return (
     <div className="wrapper">
       <div className="overviewInfo">
@@ -6,7 +11,11 @@ export default function CardProyectDetails() {
           <div className="grouptext">
             <h3>Código Fuente</h3>
             <div className="grouptext-info">
-              <img className="link-img" src={require("../imgs/png/link.png")} alt="" />
+              <img
+                className="link-img"
+                src={require("../imgs/png/link.png")}
+                alt=""
+              />
               <a
                 href="https://github.com/mauricioACV/React-JS-Proyecto-GIFos-Acamica"
                 target="_blank"
@@ -19,7 +28,11 @@ export default function CardProyectDetails() {
           <div className="grouptext">
             <h3>Enlace App</h3>
             <div className="grouptext-info">
-              <img className="link-img" src={require("../imgs/png/link.png")} alt="" />
+              <img
+                className="link-img"
+                src={require("../imgs/png/link.png")}
+                alt=""
+              />
               <a
                 href="https://github.com/mauricioACV/React-JS-Proyecto-GIFos-Acamica"
                 target="_blank"
@@ -43,16 +56,32 @@ export default function CardProyectDetails() {
             <div className="featureIcon"></div>
             <div className="featureText">
               <p className="featureText-title">Lenguajes:</p>
-              <img className="featureText-img" src={require("../imgs/png/css.png")} alt="" />
-              <img className="featureText-img" src={require("../imgs/png/html.png")} alt="" />
-              <img className="featureText-img" src={require("../imgs/png/js.png")}  alt="" />
+              <img
+                className="featureText-img"
+                src={require("../imgs/png/css.png")}
+                alt=""
+              />
+              <img
+                className="featureText-img"
+                src={require("../imgs/png/html.png")}
+                alt=""
+              />
+              <img
+                className="featureText-img"
+                src={require("../imgs/png/js.png")}
+                alt=""
+              />
             </div>
           </div>
           <div className="feature">
             <div className="featureIcon"></div>
             <div className="featureText">
               <p className="featureText-title">Librería:</p>
-              <img className="featureText-img" src={require("../imgs/png/react.png")} alt="" />
+              <img
+                className="featureText-img"
+                src={require("../imgs/png/react.png")}
+                alt=""
+              />
             </div>
           </div>
           <div className="feature">
@@ -67,13 +96,20 @@ export default function CardProyectDetails() {
           <button className="button-82-pushable" role="button">
             <span className="button-82-shadow"></span>
             <span className="button-82-edge"></span>
-            <span className="button-82-front text">
-              <img className="button-img" src="./imgs/arrow-right_.svg" alt="" />
+            <span
+              className="button-82-front text"
+              onClick={() => setOpenModal(true)}
+            >
+              <img
+                className="button-img"
+                src={require("../imgs/svg/arrow-right_.svg").default}
+              />
               <span>Ver más detalles</span>
             </span>
           </button>
         </div>
       </div>
+      {openModal && <ModalProjectDetail setOpenModal={setOpenModal} />}
     </div>
   );
 }
