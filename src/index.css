@@ -49,12 +49,15 @@ html a {
 ************************************************************** */
 
 .header {
-  margin: 12px 0px 5px 0px;
+  position: fixed;
+  margin: 0px 0px 5px 0px;
   background: #20232a;
-  height: 55px;
-  padding: 10px 35px;
+  width: 100%;
+  height: 65px;
+  padding: 20px 35px 10px 35px;
   display: flex;
   align-items: center;
+  z-index: 100;
 }
 
 .logo-container {
@@ -248,7 +251,7 @@ html a {
     url(./imgs/jpg/back-img-developer-d.jpg) no-repeat 0;
   background-size: cover;
   background-blend-mode: screen;
-  padding: 10px 25px 10px 45px;
+  padding: 50px 25px 10px 45px;
   height: 500px;
   display: flex;
 }
@@ -462,6 +465,7 @@ html a {
 }
 
 .section-title-container {
+  padding-top: 15px;
   padding-left: 30px;
   width: 100%;
   margin-bottom: 10px;
@@ -554,7 +558,7 @@ html a {
 /* ***++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 @media screen and (min-width: 1440px) {
   .intro-section {
-    padding: 10px 150px 10px 200px;
+    padding: 50px 150px 10px 200px;
   }
   .section-container {
     display: flex;
@@ -567,7 +571,7 @@ html a {
 /* ***++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 @media screen and (max-width: 1300px) {
   .intro-section {
-    padding: 10px 10px 10px 30px;
+    padding: 50px 10px 10px 30px;
   }
 }
 /* ***++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -584,6 +588,9 @@ html a {
 }
 /* ***++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 @media screen and (max-width: 995px) {
+  .intro-section {
+    padding: 70px 10px 10px 30px;
+  }
   .text-logo {
     display: none;
   }
@@ -664,8 +671,8 @@ html a {
   }
   .header {
     padding: 5px 20px;
-    margin: 15px 0px 0px 0px;
-    height: 10%;
+    margin: 0px 0px 0px 0px;
+    height: 65px;
   }
   .nav,
   .socialmedia {
@@ -696,7 +703,7 @@ html a {
     width: 100%;
   }
   .intro-section {
-    padding: 5px 20px;
+    padding: 65px 20px;
     height: 92vh;
     justify-content: flex-start;
   }
@@ -706,7 +713,7 @@ html a {
     height: 30%;
   }
   .intro-section-r {
-    padding-top: 10px;
+    padding-top: 45px;
     height: 70%;
     align-items: flex-start;
     overflow-y: auto;
@@ -737,6 +744,7 @@ html a {
     padding: 0px 5px 10px 5px;
   }
   .section-title-container {
+    padding-top: 15px;
     padding-left: 0px;
     justify-content: center;
   }
