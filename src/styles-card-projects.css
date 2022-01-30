@@ -96,15 +96,21 @@
   color: #fff;
 }
 
-.productSpecifications p {
+.productSpecifications .intro-description {
   opacity: 0.9;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.5;
+  font-weight: 200;
 }
 
 .featureText-title {
   opacity: 1;
   color: #fff;
+}
+
+.featureText-content {
+  font-size: 14px;
+  font-weight: 200;
 }
 
 .featureText-img {

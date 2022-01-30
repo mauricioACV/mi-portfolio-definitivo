@@ -34,22 +34,22 @@
     cursor: pointer;
   }
   
-  .modalContainer .body {
+  .modalContainer .modal-body {
     padding-top: 10px;
     flex: 50%;
     font-size: .9rem;
     font-weight: 200;
-    text-align: center;
+    padding: 7px;
   }
   
-  .modalContainer .footer {
+  .modalContainer .modal-footer {
     /* flex: 20%; */
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
-  .modalContainer .footer button {
+  .modalContainer .modal-footer button {
     margin: 10px;
     border: none;
     color: white;
@@ -60,6 +60,6 @@
   
   #cancelBtn {
     width: 100%;
-    height: 45px;
+    height: 40px;
     background-color: crimson;
   }

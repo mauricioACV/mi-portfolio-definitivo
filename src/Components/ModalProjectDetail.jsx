@@ -1,24 +1,17 @@
 import React from "react";
 import "../stylesModalProjectDetail.css";
 
-export default function ModalProjectDetail({ setOpenModal }) {
+export default function ModalProjectDetail({ title, description, setOpenModal }) {
   return (
     <div className="modalBackground animate__animated animate__backInDown">
       <div className="modalContainer">
         <div className="title">
-          <h1>Proyecto GifOS</h1>
-          {/* <img
-            src={require("../imgs/svg/close.svg").default}
-            onClick={() => {
-              setOpenModal(false);
-            }}
-            alt=""
-          /> */}
+          <h1>{title}</h1>
         </div>
-        <div className="body">
-          <p>The next page looks amazing. Hope you want to go there!</p>
+        <div className="modal-body">
+          <p>{description}</p>
         </div>
-        <div className="footer">
+        <div className="modal-footer">
           <button
             onClick={() => {
               setOpenModal(false);
