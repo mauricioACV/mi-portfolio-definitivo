@@ -703,7 +703,7 @@ html a {
     width: 100%;
   }
   .intro-section {
-    padding: 65px 20px;
+    padding: 65px 20px 25px 20px;
     height: 92vh;
     justify-content: flex-start;
   }
@@ -727,9 +727,12 @@ html a {
   .section-r-mobile-cards {
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
     overflow: hidden;
     overflow-y: auto;
+  }
+  .section-r-mobile-cards p {
+    font-size: 11px;
   }
   .section-r-title {
     font-size: 18px;
