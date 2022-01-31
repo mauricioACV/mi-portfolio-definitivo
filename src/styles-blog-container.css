@@ -20,6 +20,12 @@
   .post-date {
     font-size: 11px;
   }
+
+  .section-r-card {
+    overflow-y: auto;
+    min-height: 200px;
+    width: 100%;
+  }
   
   .section-r-card h2 {
     margin-bottom: 10px;
@@ -41,53 +47,31 @@
       10px -10px 0 -3px var(--page), 10px -10px var(--intro),
       20px -20px 0 -3px var(--page), 20px -20px var(--intro);
   }
+
+  .section-r-card::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
   
-  /* .section-r-card:hover {
-    animation: shadow-wave 3s ease infinite;
-  } */
+  .section-r-card::-webkit-scrollbar-track {
+    background: #0d0e11e5;
+  }
   
-  /* @keyframes shadow-wave {
-    0% {
-      border: 3px solid var(--primary);
-      box-shadow: 1px 9px 14px -2px rgba(0, 0, 0, 0.53),
-        10px -10px 0 -3px var(--background), 10px -10px var(--green),
-        20px -20px 0 -3px var(--background), 20px -20px var(--yellow);
-    }
-    20% {
-      border: 3px solid var(--red);
-      box-shadow: 1px 9px 14px -2px rgba(0, 0, 0, 0.53),
-        10px -10px 0 -3px var(--background), 10px -10px var(--primary),
-        20px -20px 0 -3px var(--background), 20px -20px var(--green);
-    }
-    40% {
-      border: 3px solid var(--orange);
-      box-shadow: 1px 9px 14px -2px rgba(0, 0, 0, 0.53),
-        10px -10px 0 -3px var(--background), 10px -10px var(--red),
-        20px -20px 0 -3px var(--background), 20px -20px var(--primary);
-    }
-    60% {
-      border: 3px solid var(--yellow);
-      box-shadow: 1px 9px 14px -2px rgba(0, 0, 0, 0.53),
-        10px -10px 0 -3px var(--background), 10px -10px var(--orange),
-        20px -20px 0 -3px var(--background), 20px -20px var(--red);
-    }
-    80% {
-      border: 3px solid var(--green);
-      box-shadow: 1px 9px 14px -2px rgba(0, 0, 0, 0.53),
-        10px -10px 0 -3px var(--background), 10px -10px var(--yellow),
-        20px -20px 0 -3px var(--background), 20px -20px var(--orange);
-    }
-    100% {
-      border: 3px solid var(--primary);
-      box-shadow: 1px 9px 14px -2px rgba(0, 0, 0, 0.53),
-        10px -10px 0 -3px var(--background), 10px -10px var(--green),
-        20px -20px 0 -3px var(--background), 20px -20px var(--yellow);
-    }
-  } */
+  .section-r-card::-webkit-scrollbar-thumb {
+    background-color: rgb(76, 76, 97);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+  }
   
   @media screen and (max-width: 690px) {
     .section-r-card {
-      display: none;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      overflow-y: auto;
+      box-shadow: none;
+    }
+
+    .section-r-card p {
+      font-size: 10px;
     }
   }
   

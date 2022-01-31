@@ -304,14 +304,14 @@ html a {
 .btn-about {
   display: flex;
   justify-content: space-between;
-  padding: 0px 30px;
+  padding: 0px 40px;
   align-items: center;
   width: 300px;
   height: 60px;
   border-radius: 5px;
-  background: #20232a;
-  color: var(--green-page);
-  border: 1px solid var(--green-page);
+  background: #1a2746;
+  color: #fff;
+  font-weight: 300;
   box-shadow: 9px 9px 23px 0px rgba(0, 0, 0, 0.67);
   cursor: pointer;
   will-change: transform;
@@ -325,29 +325,21 @@ html a {
 
 .btn-about img {
   width: 30px;
-  filter: invert(90%) sepia(77%) saturate(3211%) hue-rotate(74deg)
+  filter: invert(90%) sepia(77%) saturate(0%) hue-rotate(74deg)
     brightness(98%) contrast(100%);
 }
 
 .btn-about p {
-  font-family: "Archivo Black", "Archivo", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .btn-about:active {
-  transform: translateY(2px);
-  transition: transform 34ms;
+  box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.67);
 }
 
 .btn-about:hover {
-  background: var(--green-page);
-  color: #20232a;
+  background: #2a4583;
   border: #20232a;
-}
-
-.btn-about:hover img {
-  filter: invert(10%) sepia(5%) saturate(2535%) hue-rotate(184deg)
-    brightness(90%) contrast(88%);
 }
 
 .intro-section-r {
@@ -643,22 +635,6 @@ html a {
   .intro-section-r {
     width: 100%;
   }
-  .section-r-card {
-    overflow-y: auto;
-    min-height: 200px;
-    width: 100%;
-  }
-  .section-r-card::-webkit-scrollbar {
-    width: 15px;
-  }
-  .section-r-card::-webkit-scrollbar-track {
-    background: #3c4453;
-  }
-  .section-r-card::-webkit-scrollbar-thumb {
-    background-color: #20232ae5;
-    border-radius: 4px;
-    border: 1px solid #424044;
-  }
 }
 
 /* ***++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -699,8 +675,7 @@ html a {
   .btn-about {
     justify-content: space-evenly;
     margin: 15px 0px;
-    background: #0e0f11b0;
-    height: 65px;
+    height: 60px;
     width: 100%;
   }
   .intro-section {
@@ -721,19 +696,6 @@ html a {
   }
   .section-l-down {
     margin-top: 5px;
-  }
-  .section-r-card {
-    display: none;
-  }
-  .section-r-mobile-cards {
-    display: block;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    overflow-y: auto;
-  }
-  .section-r-mobile-cards p {
-    font-size: 11px;
   }
   .section-r-title {
     font-size: 18px;

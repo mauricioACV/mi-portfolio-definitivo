@@ -15,7 +15,7 @@
     background: #363538;
     display: flex;
     flex-direction: column;
-    padding: 7px;
+    /* padding: 7px; */
   }
 
   .title {
@@ -50,16 +50,16 @@
   }
   
   .modalContainer .modal-footer button {
-    margin: 10px;
+    /* margin: 10px; */
     border: none;
     color: white;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     font-size: 18px;
     cursor: pointer;
   }
   
   #cancelBtn {
     width: 100%;
-    height: 40px;
+    height: 45px;
     background-color: crimson;
   }

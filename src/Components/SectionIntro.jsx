@@ -34,7 +34,7 @@ export default function SectionIntro({ setSection }) {
             <h2 className="section-r-title">Publicaciones recientes</h2>
             <div className="post-container">
               <div className="post-img">
-                <img src={require("../imgs/png/programming.png")} alt="" />
+                <img src={require("../imgs/png/css.png")} alt="" />
               </div>
               <div className="post-details">
                 <a
@@ -52,7 +52,7 @@ export default function SectionIntro({ setSection }) {
             <div className="post-container">
               <div className="post-img">
                 <img
-                  src={require("../imgs/svg/logo-dark-socket.svg").default}
+                  src={require("../imgs/png/html.png")}
                   alt=""
                 />
               </div>
@@ -72,33 +72,21 @@ export default function SectionIntro({ setSection }) {
             <div className="post-container">
               <div className="post-img">
                 <img
-                  src={require("../imgs/svg/logo-dark-socket.svg").default}
+                  src={require("../imgs/png/function-post.png")}
                   alt=""
                 />
               </div>
               <div className="post-details">
-              <a
-                  href="https://www.linkedin.com/pulse/conceptos-b%C3%A1sicos-de-html-y-preguntas-entrevistas-mauricio/"
+                <a
+                  href="https://www.linkedin.com/pulse/qu%C3%A9-es-la-programaci%C3%B3n-funcional-mauricio-campusano-villarroel/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <p className="post-title">
-                  ¿Qué es la Programación Funcional?
+                    ¿Qué es la Programación Funcional?
                   </p>
                 </a>
                 <p className="post-date">1 de diciembre 2022</p>
-              </div>
-            </div>
-          </div>
-          <div className="section-r-mobile-cards">
-            <h2 className="section-r-title">Publicaciones recientes</h2>
-            <div className="post-container">
-              <div className="post-img">
-                <img src={require("../imgs/png/programming.png")} alt="" />
-              </div>
-              <div className="post-details">
-                <p className="post-title">¿Que es la programación funcional?</p>
-                <p className="post-date">24 de febrero 2022</p>
               </div>
             </div>
             <div className="post-container">
@@ -109,28 +97,16 @@ export default function SectionIntro({ setSection }) {
                 />
               </div>
               <div className="post-details">
-                <p className="post-title">
+                <a
+                  href="https://www.linkedin.com/pulse/iniciando-con-socketio-aplicaciones-web-en-tiempo-mauricio/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <p className="post-title">
                   Iniciando con Socket.io: Aplicaciones Web en Tiempo Real
-                </p>
-                <p className="post-date">24 de febrero 2022</p>
-              </div>
-            </div>
-            <div className="post-container">
-              <div className="post-img">
-                <img src={require("../imgs/png/programming.png")} alt="" />
-              </div>
-              <div className="post-details">
-                <p className="post-title">¿Que es la programación funcional?</p>
-                <p className="post-date">24 de febrero 2022</p>
-              </div>
-            </div>
-            <div className="post-container">
-              <div className="post-img">
-                <img src={require("../imgs/png/programming.png")} alt="" />
-              </div>
-              <div className="post-details">
-                <p className="post-title">¿Que es la programación funcional?</p>
-                <p className="post-date">24 de febrero 2022</p>
+                  </p>
+                </a>
+                <p className="post-date">1 de diciembre 2022</p>
               </div>
             </div>
           </div>

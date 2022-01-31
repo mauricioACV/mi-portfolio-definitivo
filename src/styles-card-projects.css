@@ -104,7 +104,6 @@
 }
 
 .featureText-title {
-  opacity: 1;
   color: #fff;
 }
 
@@ -117,6 +116,10 @@
   width: 25px;
   filter: drop-shadow(0px 0px 4px rgba(219, 207, 207, 0.582));
 }
+
+/* .project-library-text {
+  font-weight: 200;
+} */
 
 .productSpecifications .productFeatures {
   display: grid;

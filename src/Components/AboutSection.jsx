@@ -67,7 +67,7 @@ export default function AboutSection() {
       <SectionContentTitle title="Mí experiencia" />
       <div className="content-section">
         <p className="style-content exp-title">
-          Web Developer- Subdirección de Obras Vialidad M.O.P.
+          Web Developer- Subdir. de Obras Vialidad M.O.P.
         </p>
         <p className="style-content">Diciembre 2019 – actualidad</p>
         <p className="style-content task-title">
@@ -91,7 +91,7 @@ export default function AboutSection() {
       </div>
       <div className="content-section">
         <p className="style-content exp-title">
-          Profesional TI - Laboratorio Nacional de Vialidad M.O.P.
+          Profesional TI - Laboratorio de Vialidad M.O.P.
         </p>
         <p className="style-content">Diciembre 2009 – Diciembre 2019</p>
         <p className="style-content task-title">

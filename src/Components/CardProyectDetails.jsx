@@ -122,7 +122,7 @@ function CardProjectBody({
                   alt=""
                 />
               ) : (
-                <p>{libraries.text}</p>
+                <p className="featureText-content">{libraries.text}</p>
               )}
             </div>
           </div>
