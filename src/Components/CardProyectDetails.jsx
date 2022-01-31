@@ -5,24 +5,27 @@ export default function CardProyectDetails({ project }) {
   const [openModal, setOpenModal] = useState(false);
   const {
     title,
+    shot_title,
     intro_description,
     description,
     languajes,
     libraries,
-    apis,
+    extra,
+    backend,
     link_app,
     link_repo,
   } = project;
 
   return (
     <div className="wrapper">
-      <CardProjectHeader link_app={link_app} link_repo={link_repo} />
+      <CardProjectHeader shot_title={shot_title} link_app={link_app} link_repo={link_repo} />
       <CardProjectBody
         title={title}
         intro_description={intro_description}
         languajes={languajes}
         libraries={libraries}
-        apis={apis}
+        extra={extra}
+        backend={backend}
         setOpenModal={setOpenModal}
       />
       {openModal && (
@@ -36,7 +39,7 @@ export default function CardProyectDetails({ project }) {
   );
 }
 
-function CardProjectHeader({ link_app, link_repo }) {
+function CardProjectHeader({ shot_title, link_app, link_repo }) {
   return (
     <div className="overviewInfo">
       <div className="productinfo">
@@ -66,11 +69,11 @@ function CardProjectHeader({ link_app, link_repo }) {
               alt=""
             />
             <a
-              href={link_app}
+              href={link_app.url}
               target="_blank"
               rel="noopener noreferrer"
             >
-              Ir a gifos app
+              Ir a {shot_title} - {link_app.demo}
             </a>
           </div>
         </div>
@@ -84,7 +87,8 @@ function CardProjectBody({
   intro_description,
   languajes,
   libraries,
-  apis,
+  extra,
+  backend,
   setOpenModal,
 }) {
   return (
@@ -95,7 +99,7 @@ function CardProjectBody({
         <div className="feature">
           <div className="featureIcon"></div>
           <div className="featureText">
-            <p className="featureText-title">Lenguajes:</p>
+            <p className="featureText-title">Lenguajes</p>
             {languajes?.map((lang) => (
               <img
                 key={lang}
@@ -106,31 +110,41 @@ function CardProjectBody({
             ))}
           </div>
         </div>
-        <div className="feature">
-          <div className="featureIcon"></div>
-          <div className="featureText">
-            <p className="featureText-title">Librería:</p>
-            {libraries?.map((lib) => (
-              <img
-                key={lib}
-                className="featureText-img"
-                src={require(`../imgs/png/${lib}.png`)}
-                alt=""
-              />
-            ))}
+        {(libraries.img || libraries.text) && (
+          <div className="feature">
+            <div className="featureIcon"></div>
+            <div className="featureText">
+              <p className="featureText-title">Librería</p>
+              {libraries.img ? (
+                <img
+                  className="featureText-img"
+                  src={require(`../imgs/png/${libraries.img}.png`)}
+                  alt=""
+                />
+              ) : (
+                <p>{libraries.text}</p>
+              )}
+            </div>
           </div>
-        </div>
-        <div className="feature">
-          <div className="featureIcon"></div>
-          <div className="featureText">
-            <p className="featureText-title">Api:</p>
-            {apis?.map((api) => (
-              <p key={api} className="featureText-content">
-                {api}
-              </p>
-            ))}
+        )}
+        {extra.title && (
+          <div className="feature">
+            <div className="featureIcon"></div>
+            <div className="featureText">
+              <p className="featureText-title">{extra.title}</p>
+              <p className="featureText-content">{extra.text}</p>
+            </div>
           </div>
-        </div>
+        )}
+        {backend && (
+          <div className="feature">
+            <div className="featureIcon"></div>
+            <div className="featureText">
+              <p className="featureText-title">Backend</p>
+              <p className="featureText-content">{backend}</p>
+            </div>
+          </div>
+        )}
       </div>
       <CardProjectDetailsBtn setOpenModal={setOpenModal} />
     </div>

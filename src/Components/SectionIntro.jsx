@@ -37,8 +37,16 @@ export default function SectionIntro({ setSection }) {
                 <img src={require("../imgs/png/programming.png")} alt="" />
               </div>
               <div className="post-details">
-                <p className="post-title">¿Que es la programación funcional?</p>
-                <p className="post-date">24 de febrero 2022</p>
+                <a
+                  href="https://www.linkedin.com/pulse/conceptos-b%C3%A1sicos-de-css-y-preguntas-entrevistas-mauricio/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <p className="post-title">
+                    Conceptos CSS y preguntas en entrevistas
+                  </p>
+                </a>
+                <p className="post-date">28 de enero 2022</p>
               </div>
             </div>
             <div className="post-container">
@@ -49,10 +57,16 @@ export default function SectionIntro({ setSection }) {
                 />
               </div>
               <div className="post-details">
-                <p className="post-title">
-                  Iniciando con Socket.io: Aplicaciones Web en Tiempo Real
-                </p>
-                <p className="post-date">24 de febrero 2022</p>
+                <a
+                  href="https://www.linkedin.com/pulse/conceptos-b%C3%A1sicos-de-html-y-preguntas-entrevistas-mauricio/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <p className="post-title">
+                    Conceptos Html y preguntas en entrevistas
+                  </p>
+                </a>
+                <p className="post-date">27 de enero 2022</p>
               </div>
             </div>
             <div className="post-container">
@@ -63,10 +77,16 @@ export default function SectionIntro({ setSection }) {
                 />
               </div>
               <div className="post-details">
-                <p className="post-title">
-                  Iniciando con Socket.io: Aplicaciones Web en Tiempo Real
-                </p>
-                <p className="post-date">24 de febrero 2022</p>
+              <a
+                  href="https://www.linkedin.com/pulse/conceptos-b%C3%A1sicos-de-html-y-preguntas-entrevistas-mauricio/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <p className="post-title">
+                  ¿Qué es la Programación Funcional?
+                  </p>
+                </a>
+                <p className="post-date">1 de diciembre 2022</p>
               </div>
             </div>
           </div>
