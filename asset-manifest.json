@@ -1,7 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.86c88980.css",
-    "main.js": "/portfolio/static/js/main.1f5b5074.js",
+    "main.css": "/portfolio/static/css/main.eb9f853e.css",
+    "main.js": "/portfolio/static/js/main.887b98c1.js",
+    "static/media/bici2.png": "/portfolio/static/media/bici2.9adc5c5fbfbb262f3616.png",
+    "static/media/bici1.png": "/portfolio/static/media/bici1.8d8fe5874dad8da14799.png",
+    "static/media/tattoo2.png": "/portfolio/static/media/tattoo2.4b76cab1e29b5a58c84d.png",
+    "static/media/tattoo1.png": "/portfolio/static/media/tattoo1.d43b6160c228c250ff2b.png",
     "static/media/back-img-developer-d.jpg": "/portfolio/static/media/back-img-developer-d.ff15f493c1a2c582679f.jpg",
     "static/media/close.svg": "/portfolio/static/media/close.b95cf370b8dd8936b67d896cf12d17e1.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.7defd339fd92d3e5fa034b24a5f10ed6.svg",
@@ -11,11 +15,11 @@
     "static/media/logo-dark-socket.svg": "/portfolio/static/media/logo-dark-socket.15f2035c592a4a1addf7a00aa350be4f.svg",
     "static/media/arrow-right_.svg": "/portfolio/static/media/arrow-right_.07fee711e5a4bbf396e7a24b2e7bfb3e.svg",
     "static/media/arrow-circle-right.svg": "/portfolio/static/media/arrow-circle-right.0a8b27e2a01301ca5978014cac3de489.svg",
-    "main.86c88980.css.map": "/portfolio/static/css/main.86c88980.css.map",
-    "main.1f5b5074.js.map": "/portfolio/static/js/main.1f5b5074.js.map"
+    "main.eb9f853e.css.map": "/portfolio/static/css/main.eb9f853e.css.map",
+    "main.887b98c1.js.map": "/portfolio/static/js/main.887b98c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.86c88980.css",
-    "static/js/main.1f5b5074.js"
+    "static/css/main.eb9f853e.css",
+    "static/js/main.887b98c1.js"
   ]
 }
