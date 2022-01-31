@@ -3,3 +3,54 @@
     font-weight: 200;
     font-size: 14px;
 }
+
+.figure-container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fig-hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fig-hobbies img {
+    border-radius: 10px;
+    width: 300px;
+}
+
+.fig-hobbies figcaption {
+    margin: 5px 0px 5px 0px;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.exp-title {
+    display: inline-block;
+    background: rgb(100, 19, 50);
+    border-radius: 4px;
+}
+
+.func-title {
+    display: inline-block;
+    background: rgb(15, 48, 92);
+    border-radius: 4px;
+}
+
+.task-title {
+    margin-top: 8px;
+}
+
+.task-list {
+    font-size: 14px;
+    font-weight: 200;
+    padding: 20px;
+}
+
+@media screen and (max-width: 995px) {
+    .figure-container {
+        flex-direction: column;
+    }
+}
