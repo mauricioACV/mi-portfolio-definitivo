@@ -5,7 +5,7 @@ export default function SectionIntro({ setSection }) {
         <div className="intro-section-l">
           <div className="section-l-up">
             <p className="intro-name">Mauro C.</p>
-            <p className="intro-pro">[ web developer ]</p>
+            <p className="intro-pro">[web developer]</p>
           </div>
           <div className="section-l-down">
             <div className="intro-foot-text">
@@ -18,7 +18,7 @@ export default function SectionIntro({ setSection }) {
             <a
               className="btn-about btn-about-a"
               href="#section-content"
-              onClick={() => setSection("SOBRE MÍ")}
+              onClick={() => setSection("ACERCA DE")}
             >
               <p>Conoce más sobre mí</p>
               <img

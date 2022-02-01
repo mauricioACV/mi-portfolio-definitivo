@@ -30,7 +30,6 @@
   .section-r-card h2 {
     margin-bottom: 10px;
     font-size: 18px;
-    font-family: "Archivo Black", "Archivo", sans-serif;
     font-weight: 300;
   }
   
@@ -72,6 +71,9 @@
 
     .section-r-card p {
       font-size: 10px;
+    }
+    .section-r-title {
+      font-size: 18px;
     }
   }
   

@@ -15,7 +15,7 @@ export default function SectionContent({ section }) {
 }
 
 function RenderSection({ section }) {
-  if (section === "SOBRE MÍ") return <AboutSection />;
+  if (section === "ACERCA DE") return <AboutSection />;
   if (section === "PROYECTOS") return <ProjectsSection/>;
   if (section === "SKILLS") return <SkillsSection/>;
   if (section === "BLOG") return <BlogSection />;

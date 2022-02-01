@@ -23,10 +23,14 @@ export default function HeaderSocialMedia() {
           alt=""
         />
       </a>
-      <a href="#">
+      <a
+        href="https://api.whatsapp.com/send?phone=56942700513"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           className="socialmedia-img"
-          src={require("../imgs/svg/email.svg").default}
+          src={require("../imgs/png/whatsapp.png")}
           alt=""
         />
       </a>

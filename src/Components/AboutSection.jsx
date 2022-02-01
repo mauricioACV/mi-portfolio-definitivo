@@ -37,7 +37,7 @@ export default function AboutSection() {
 
   return (
     <>
-      <SectionContentTitle title="Acerca de Mí" />
+      <SectionContentTitle title="Sobre Mí" />
       <div className="content-section">
         <p className="style-content">
           Por lo general me llaman Mauro o Mau, y he tenido la oportunidad de

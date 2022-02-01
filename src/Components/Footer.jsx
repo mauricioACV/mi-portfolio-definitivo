@@ -3,7 +3,7 @@ export default function Footer() {
     <>
       <div className="footer-mobile">
         <div className="footer-l">
-          <p>&copy; Todos los derechos reservados 2022</p>
+          <p>&copy; Todos los derechos reservados {new Date().getFullYear()}</p>
         </div>
         <div className="footer-r">
           <div className="socialmedia-footer">
@@ -29,10 +29,14 @@ export default function Footer() {
                 alt=""
               />
             </a>
-            <a href="#">
+            <a
+              href="https://api.whatsapp.com/send?phone=56942700513"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 className="socialmedia-img"
-                src={require("../imgs/svg/email.svg").default}
+                src={require("../imgs/png/whatsapp.png")}
                 alt=""
               />
             </a>

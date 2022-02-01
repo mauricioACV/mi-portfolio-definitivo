@@ -5,7 +5,7 @@ import SectionContent from "./Components/SectionContent";
 import SectionIntro from "./Components/SectionIntro";
 
 function App() {
-  const [section, setSection] = useState("SOBRE MÍ");
+  const [section, setSection] = useState("ACERCA DE");
   return (
     <>
       <Header section={section} setSection={setSection} />

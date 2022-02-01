@@ -6,9 +6,9 @@ export default function NavDesk({ section, setSection }) {
   return (
     <nav className="nav">
       <ul className="nav__list">
-        <li className={`nav__list-item ${section==="SOBRE MÍ" ? "active":""}`}>
+        <li className={`nav__list-item ${section==="ACERCA DE" ? "active":""}`}>
           <a href="#section-content" onClick={handleSectionclick}>
-            Sobre Mí
+            Acerca de
           </a>
         </li>
         <li className={`nav__list-item ${section==="PROYECTOS" ? "active":""}`}>
