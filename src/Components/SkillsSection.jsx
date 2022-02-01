@@ -35,6 +35,8 @@ export default function SkillsSection() {
         <div className="item-container">
           <h3>Intermedio: Uso Esporádico</h3>
           <ul className="style-content">
+            <li>Jest Testing Library</li>
+            <li>xUnit.net</li>
             <li>MariaDB - MYSQL</li>
             <li>MongoDb</li>
             <li>Azure DevOps</li>

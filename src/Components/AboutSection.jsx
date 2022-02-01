@@ -31,7 +31,7 @@ export default function AboutSection() {
     },
     img2: {
       src: require("../imgs/png/arcade2.png"),
-      title: "Arcade funcionando",
+      title: "Disfrutando un buen juego",
     },
   };
 
@@ -69,7 +69,7 @@ export default function AboutSection() {
         <p className="style-content exp-title">
           Web Developer- Subdir. de Obras Vialidad M.O.P.
         </p>
-        <p className="style-content">Diciembre 2019 – actualidad</p>
+        <p className="style-content">Dic. 2019 – actualidad</p>
         <p className="style-content task-title">
           Responsable de implementar soluciones de software en procesos de
           gestión del Departamento de Contratos a nivel Nacional. Esta etapa fue
@@ -77,7 +77,9 @@ export default function AboutSection() {
           activamente durante todo el ciclo de planificación e implementación de
           proyectos.
         </p>
-        <p className="style-content task-title func-title">Principales funciones:</p>
+        <p className="style-content task-title func-title">
+          Principales funciones:
+        </p>
         <ul className="task-list">
           <li>Desarrollo Front-End.</li>
           <li>Desarrollo Back-end.</li>
@@ -93,20 +95,29 @@ export default function AboutSection() {
         <p className="style-content exp-title">
           Profesional TI - Laboratorio de Vialidad M.O.P.
         </p>
-        <p className="style-content">Diciembre 2009 – Diciembre 2019</p>
+        <p className="style-content">2009 – 2019</p>
         <p className="style-content task-title">
           Periodo de mucho aprendizaje, crecimiento y trabajo en equipo, en
           donde tuve la oportunidad de ser instructor de personal y de
           estudiantes externos, descubrí mi vocación de enseñar y también
           aprender de mis compañeros de equipo.
         </p>
-        <p className="style-content task-title func-title">Principales funciones:</p>
+        <p className="style-content task-title func-title">
+          Principales funciones:
+        </p>
         <ul className="task-list">
-          <li>Desarrollo de interfaces de usuario para aplicación de escritorio y web.</li>
-          <li>Gestión de Proyecto.</li>
-          <li>Líder de equipo campañas de operación y mediciones con instrumentos de laboratorio (control e investigación).</li>
           <li>
-          Actualización y mantención de rutinas embebidas en microcontroladores de equipos de medición.
+            Desarrollo de interfaces de usuario para aplicación de escritorio y
+            web.
+          </li>
+          <li>Gestión de Proyecto.</li>
+          <li>
+            Líder de equipo campañas de operación y mediciones con instrumentos
+            de laboratorio (control e investigación).
+          </li>
+          <li>
+            Actualización y mantención de rutinas embebidas en
+            microcontroladores de equipos de medición.
           </li>
           <li>Administración Web de Portal Sitios SharePoint (Colabora).</li>
         </ul>
@@ -114,42 +125,44 @@ export default function AboutSection() {
       <SectionContentTitle title="Pasatiempos" />
       <div className="content-section">
         <p className="style-content">
-          Mi gran pasión son las bicletas, a parte de ser mi medio de transporte
-          preferido y más utilizado, también me gusta aprender todo sobre ellas,
-          de hecho aprendí sobre armado y mecánica participando de un grupo con
-          el que practicamos por 3 años descenso en cerro (downhill). Luego de
-          esta primera experiencia, obtuve las habilidades necesarias para poder
-          comprar una bicicleta por partes y armarla completamente. Así es como
-          he podido probar distintas disciplinas en el ciclismo, pasando por
-          bicicletas de pista y actualmente utilizo una de ruta. Disfruto mucho
-          el desafío que involucra armar una bicleta y que esto quede bien hecho
-          para que no se desarme al momento de probarla en terreno.
+          Mi gran pasión son las bicicletas, es mi medio de transporte preferido y
+          más utilizado, me gusta conocer todo sobre ellas, de hecho, aprendí
+          sobre armado y mecánica participando de un grupo con el que
+          practicamos por más 3 años descenso en cerro (downhill). Con esta
+          primera experiencia, obtuve las habilidades necesarias para poder
+          obtener componentes de una bicicleta por separado y armarla
+          completamente. De esta forma es que he tenido la oportunidad probar
+          distintas disciplinas en el ciclismo aficionado, como bicicletas de pista
+          y actualmente utilizo una de tipo ruta. Disfruto mucho el desafío que
+          involucra armar una bicicleta y de hacerlo correctamente para sufrir
+          accidentes al momento de probarla en terreno.
         </p>
         <AboutFigureContainer objFigure={objFigBike} />
       </div>
       <div className="content-section">
         <p className="style-content">
-          Otro pasatiempo que me gusta mucho son hacer tatuajes. El intentar
-          hacer un buen dibujo (aunque considero que me falta práctica), la
+          Otro pasatiempo que disfruto mucho son los tatuajes. El intentar hacer
+          un buen dibujo (aunque considero que me falta práctica), la
           concentración que se requiere para aplicar correctamente técnicas para
-          trazar lineas con una maquina de tatuajes y para saturar de color
-          alguna zona en específico, sumado a un ambiente en silencio y haciendo
-          algo que uno disfruta, es algo que me realaja mucho.
+          trazar líneas y para saturar de color con una maquina alguna zona en
+          específico, sumado a un ambiente con buena música y haciendo algo que
+          me gusta, es algo que me relaja mucho.
         </p>
         <AboutFigureContainer objFigure={objFigTattoo} />
       </div>
       <div className="content-section">
         <p className="style-content">
-          Por último quiero nombrar mi afición por los video juegos arcade. Esto
+          Por último quiero mostrar mi afición por los video juegos arcade. Esto
           es algo que también me gusta mucho, me recuerda mi infancia y las
           tardes de entretenimento con amigos intentando conseguir algun nuevo
-          truco, compartiendo técnicas de juego, escenarios secretos si era el
-          caso, o simplemente divirtiendonos todos juntos. En mis tiempos libres
-          arme el pedestal con palancas y botones, configuré el sistema
-          operativo en una Raspberry Pi 3 Model B, conseguí una imagen con mas
-          de 40 gb de juegos, y cada vez que recuerdo o leo algún título arcade
-          por algún foro de internet, voy y lo cargo en mi maquina para jugarlo
-          cuando el tiempo me lo permite.
+          truco, compartiendo técnicas de juego y anotandolas en papel,
+          discutiendo sobre escenarios secretos si era el caso, o simplemente
+          divirtiendonos todos juntos. En mis tiempos libres arme un pedestal
+          con palancas y botones, configuré el sistema operativo en una
+          Raspberry Pi 3 Model B, conseguí una imagen con mas de 40 gb de
+          juegos, y cada vez que recuerdo o leo algún título arcade por algún
+          foro de internet, lo busco y cargo en mi máquina para jugarlo cuando
+          el tiempo me lo permite.
         </p>
         <AboutFigureContainer objFigure={objFigGamer} />
       </div>
@@ -162,11 +175,11 @@ function AboutFigureContainer({ objFigure }) {
     <div className="figure-container">
       <figure className="fig-hobbies">
         <img src={`${objFigure.img1.src}`} alt="" />
-        <figcaption>Pic.1 - {objFigure.img1.title}</figcaption>
+        <figcaption>{objFigure.img1.title}</figcaption>
       </figure>
       <figure className="fig-hobbies">
         <img src={`${objFigure.img2.src}`} alt="" />
-        <figcaption>Pic.2 - {objFigure.img2.title}</figcaption>
+        <figcaption>{objFigure.img2.title}</figcaption>
       </figure>
     </div>
   );

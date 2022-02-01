@@ -18,7 +18,7 @@ export default function ContactSection() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Puedes contactarme en Whatsapp
+            Puedes contactarme por Whatsapp
           </a>
         </div>
         <div className="contact-item-container">
@@ -38,7 +38,7 @@ export default function ContactSection() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            mauricio.campusano@gmail.com
+            Escribirme un correo si prefieres
           </a>
         </div>
         <div className="contact-item-container">
