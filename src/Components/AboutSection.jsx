@@ -93,7 +93,7 @@ export default function AboutSection() {
       </div>
       <div className="content-section">
         <p className="style-content exp-title">
-          Profesional TI - Laboratorio de Vialidad M.O.P.
+          Profesional TI - Laboratorio Nacional de Vialidad M.O.P.
         </p>
         <p className="style-content">2009 – 2019</p>
         <p className="style-content task-title">
@@ -125,34 +125,34 @@ export default function AboutSection() {
       <SectionContentTitle title="Pasatiempos" />
       <div className="content-section">
         <p className="style-content">
-          Mi gran pasión son las bicicletas, es mi medio de transporte preferido y
-          más utilizado, me gusta conocer todo sobre ellas, de hecho, aprendí
-          sobre armado y mecánica participando de un grupo con el que
-          practicamos por más 3 años descenso en cerro (downhill). Con esta
-          primera experiencia, obtuve las habilidades necesarias para poder
-          obtener componentes de una bicicleta por separado y armarla
-          completamente. De esta forma es que he tenido la oportunidad probar
-          distintas disciplinas en el ciclismo aficionado, como bicicletas de pista
-          y actualmente utilizo una de tipo ruta. Disfruto mucho el desafío que
-          involucra armar una bicicleta y de hacerlo correctamente para sufrir
-          accidentes al momento de probarla en terreno.
+          Mi gran pasión son las bicicletas, es mi medio de transporte preferido
+          y más utilizado, me gusta conocer todo sobre ellas. Aprendí sobre
+          armado y mecánica participando en un grupo con el que practicamos por
+          más de 3 años descenso en cerro (downhill). Con esta primera experiencia,
+          obtuve las habilidades necesarias para poder obtener componentes de
+          una bicicleta por separado y armarla completamente. De esta forma he
+          tenido la oportunidad de conocer distintas disciplinas en el ciclismo
+          aficionado, como bicicletas de pista y actualmente utilizo una de tipo
+          ruta. Disfruto mucho el desafío que involucra armar una bicicleta y de
+          hacerlo correctamente para no sufrir accidentes al momento de probarla
+          en terreno.
         </p>
         <AboutFigureContainer objFigure={objFigBike} />
       </div>
       <div className="content-section">
         <p className="style-content">
           Otro pasatiempo que disfruto mucho son los tatuajes. El intentar hacer
-          un buen dibujo (aunque considero que me falta práctica), la
-          concentración que se requiere para aplicar correctamente técnicas para
-          trazar líneas y para saturar de color con una maquina alguna zona en
-          específico, sumado a un ambiente con buena música y haciendo algo que
-          me gusta, es algo que me relaja mucho.
+          un buen dibujo (aunque considero que me falta práctica), estudiar
+          técnicas y métodos para aplicar correctamente trazado de líneas y
+          saturación de color con la maquina en alguna zona específica a tatuar
+          (algo que erquiere mucha concentración), sumando a un ambiente con
+          buena música, es algo que me relaja mucho.
         </p>
         <AboutFigureContainer objFigure={objFigTattoo} />
       </div>
       <div className="content-section">
         <p className="style-content">
-          Por último quiero mostrar mi afición por los video juegos arcade. Esto
+          Por último quiero mostrar mi afición por los juegos arcade. Esto
           es algo que también me gusta mucho, me recuerda mi infancia y las
           tardes de entretenimento con amigos intentando conseguir algun nuevo
           truco, compartiendo técnicas de juego y anotandolas en papel,

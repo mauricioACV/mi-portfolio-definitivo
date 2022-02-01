@@ -36,7 +36,7 @@ function NavMobileOptions({ setSection }) {
       <div className="nav-mobile-options">
         <li>
           <a href="#section-content" onClick={handleSectionclick}>
-            SOBRE MÍ
+            ACERCA DE
           </a>
         </li>
         <li>

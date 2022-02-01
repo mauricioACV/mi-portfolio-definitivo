@@ -11,7 +11,7 @@ export const projects = [
     libraries: {img: "", text:"MVC5 .Net"},
     extra: { title: "Data", text: "Oracle 11g", img: null },
     backend: "C# .Net Framework",
-    link_app: {demo:"demo video", url:"#"},
+    link_app: {demo:"demo video", url:"https://youtu.be/L-bMqzUyM1E"},
     link_repo: "https://github.com/mauricioACV/SistemaSacMvc5Ver.2",
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     intro_description:
       'Mi portfolio fue construido en React, y tiene por objetivo ser mi carta de presentación profesional, permitiendo acceder a información sobre mí experiencia en el rubro y cargos que he desempeñado, proyectos relevantes que he desarrollado, habilidades y competencias, medios de contactos y mis redes sociales.',
     description:
-      "Este proyecto cuenta con vista responsive adaptado a distintos tamaños de pantalla. En una siguiente versión se incorporará un blog de contenido que me permita presentar posts sobre contenidos que voy aprendiendo y consolidando, además de permitir a otras personas publicar contenido.",
+      "Este proyecto cuenta con vista responsive adaptado a distintos tamaños de pantalla. En una siguiente versión se incorporará un blog de contenido que me permita presentar posts sobre contenidos que voy aprendiendo y consolidando, además de permitir a otras personas publicar sobre desarrollo web.",
     languajes: ["css", "html", "js"],
     libraries: {img: ["react"], text:null},
     extra: { title: null, text: null, img: null },
@@ -62,7 +62,7 @@ export const projects = [
   {
     id: 5,
     title: "Proyecto Reserva Hotel",
-    shot_title:"Dev_United",
+    shot_title:"Reserva Hotel",
     intro_description:
       'Este proyecto simula realizar una aplicación en versión “beta”, y el modelo de negocio es la búsqueda y reserva de alojamientos según ciertos criterios de búsqueda: fechas disponibles, países, cantidad de camas del lugar y el precio del mismo. La interfaz gráfica fue construida en React.',
     description:

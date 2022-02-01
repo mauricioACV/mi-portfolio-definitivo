@@ -1,3 +1,5 @@
+import { Typewriter } from 'react-simple-typewriter'
+
 export default function SectionIntro({ setSection }) {
   return (
     <>
@@ -11,7 +13,14 @@ export default function SectionIntro({ setSection }) {
             <div className="intro-foot-text">
               <p className="p-foot-text">&#60;p&#62;</p>
               <p className="foot-text">
-                Front end | Back end | agile methodologies
+                <Typewriter
+                  words={["Front end | Back end | agile methodologies"]}
+                  cursor
+                  cursorStyle="_"
+                  typeSpeed={100}
+                  deleteSpeed={50}
+                  delaySpeed={100000}
+                />
               </p>
               <p className="p-foot-text f-end">&#60;&#47;p&#62;</p>
             </div>
@@ -51,10 +60,7 @@ export default function SectionIntro({ setSection }) {
             </div>
             <div className="post-container">
               <div className="post-img">
-                <img
-                  src={require("../imgs/png/html.png")}
-                  alt=""
-                />
+                <img src={require("../imgs/png/html.png")} alt="" />
               </div>
               <div className="post-details">
                 <a
@@ -71,10 +77,7 @@ export default function SectionIntro({ setSection }) {
             </div>
             <div className="post-container">
               <div className="post-img">
-                <img
-                  src={require("../imgs/png/function-post.png")}
-                  alt=""
-                />
+                <img src={require("../imgs/png/function-post.png")} alt="" />
               </div>
               <div className="post-details">
                 <a
@@ -103,7 +106,7 @@ export default function SectionIntro({ setSection }) {
                   rel="noopener noreferrer"
                 >
                   <p className="post-title">
-                  Iniciando con Socket.io: Aplicaciones Web en Tiempo Real
+                    Iniciando con Socket.io: Aplicaciones Web en Tiempo Real
                   </p>
                 </a>
                 <p className="post-date">1 de diciembre 2022</p>
