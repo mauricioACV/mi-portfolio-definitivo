@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c05ac4fb.css",
+    "main.css": "/portfolio/static/css/main.5312647c.css",
     "main.js": "/portfolio/static/js/main.4a831671.js",
     "static/media/bici2.png": "/portfolio/static/media/bici2.9adc5c5fbfbb262f3616.png",
     "static/media/bici1.png": "/portfolio/static/media/bici1.8d8fe5874dad8da14799.png",
@@ -17,11 +17,11 @@
     "static/media/logo-dark-socket.svg": "/portfolio/static/media/logo-dark-socket.15f2035c592a4a1addf7a00aa350be4f.svg",
     "static/media/arrow-right_.svg": "/portfolio/static/media/arrow-right_.07fee711e5a4bbf396e7a24b2e7bfb3e.svg",
     "static/media/arrow-circle-right.svg": "/portfolio/static/media/arrow-circle-right.0a8b27e2a01301ca5978014cac3de489.svg",
-    "main.c05ac4fb.css.map": "/portfolio/static/css/main.c05ac4fb.css.map",
+    "main.5312647c.css.map": "/portfolio/static/css/main.5312647c.css.map",
     "main.4a831671.js.map": "/portfolio/static/js/main.4a831671.js.map"
   },
   "entrypoints": [
-    "static/css/main.c05ac4fb.css",
+    "static/css/main.5312647c.css",
     "static/js/main.4a831671.js"
   ]
 }
