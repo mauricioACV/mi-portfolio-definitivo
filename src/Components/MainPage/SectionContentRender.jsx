@@ -1,8 +1,8 @@
-import AboutSection from "./AboutSection";
-import ProjectsSection from "./ProjectsSection";
-import BlogSection from "./BlogSection";
-import ContactSection from "./ContactSection";
-import SkillsSection from "./SkillsSection";
+import AboutSection from "../Sections/AboutSection";
+import ProjectsSection from "../Sections/ProjectsSection";
+import BlogSection from "../Sections/BlogSection";
+import ContactSection from "../Sections/ContactSection";
+import SkillsSection from "../Sections/SkillsSection";
 
 export default function SectionContent({ section }) {
   return (

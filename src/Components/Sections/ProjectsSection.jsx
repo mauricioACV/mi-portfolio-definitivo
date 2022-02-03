@@ -1,6 +1,6 @@
 import SectionContentTitle from "./SectionContentTitle";
-import CardProyectDetails from "./CardProyectDetails";
-import {projects} from '../Data/projects.js';
+import CardProyectDetails from "./../CardProyectDetails";
+import {projects} from '../../Data/projects.js';
 
 export default function ProjectsSection() {
   return (

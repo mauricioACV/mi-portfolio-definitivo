@@ -32,7 +32,7 @@ export default function SectionIntro({ setSection }) {
               <p>Conoce más sobre mí</p>
               <img
                 className="btn-about-img"
-                src={require("../imgs/svg/arrow-circle-right.svg").default}
+                src={require("../../imgs/svg/arrow-circle-right.svg").default}
                 alt=""
               />
             </a>
@@ -43,7 +43,24 @@ export default function SectionIntro({ setSection }) {
             <h2 className="section-r-title">Publicaciones recientes</h2>
             <div className="post-container">
               <div className="post-img">
-                <img src={require("../imgs/png/css.png")} alt="" />
+                <img src={require("../../imgs/png/js.png")} alt="" />
+              </div>
+              <div className="post-details">
+                <a
+                  href="https://www.linkedin.com/pulse/conceptos-b%25C3%25A1sicos-de-javascript-y-preguntas-campusano-villarroel/?trackingId=ex69CDb65bcANlZZpt1Qvw%3D%3D"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <p className="post-title">
+                    Conceptos JavaScript y preguntas en entrevistas
+                  </p>
+                </a>
+                <p className="post-date">03 de febrero 2022</p>
+              </div>
+            </div>
+            <div className="post-container">
+              <div className="post-img">
+                <img src={require("../../imgs/png/css.png")} alt="" />
               </div>
               <div className="post-details">
                 <a
@@ -60,7 +77,7 @@ export default function SectionIntro({ setSection }) {
             </div>
             <div className="post-container">
               <div className="post-img">
-                <img src={require("../imgs/png/html.png")} alt="" />
+                <img src={require("../../imgs/png/html.png")} alt="" />
               </div>
               <div className="post-details">
                 <a
@@ -77,7 +94,7 @@ export default function SectionIntro({ setSection }) {
             </div>
             <div className="post-container">
               <div className="post-img">
-                <img src={require("../imgs/png/function-post.png")} alt="" />
+                <img src={require("../../imgs/png/function-post.png")} alt="" />
               </div>
               <div className="post-details">
                 <a
@@ -89,13 +106,13 @@ export default function SectionIntro({ setSection }) {
                     ¿Qué es la Programación Funcional?
                   </p>
                 </a>
-                <p className="post-date">1 de diciembre 2022</p>
+                <p className="post-date">1 de diciembre 2021</p>
               </div>
             </div>
             <div className="post-container">
               <div className="post-img">
                 <img
-                  src={require("../imgs/svg/logo-dark-socket.svg").default}
+                  src={require("../../imgs/svg/logo-dark-socket.svg").default}
                   alt=""
                 />
               </div>
@@ -109,7 +126,7 @@ export default function SectionIntro({ setSection }) {
                     Iniciando con Socket.io: Aplicaciones Web en Tiempo Real
                   </p>
                 </a>
-                <p className="post-date">1 de diciembre 2022</p>
+                <p className="post-date">10 de septiembre 2021</p>
               </div>
             </div>
           </div>

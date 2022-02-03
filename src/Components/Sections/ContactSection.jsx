@@ -9,7 +9,7 @@ export default function ContactSection() {
           <a href="#">
             <img
               className="socialmedia-img"
-              src={require("../imgs/png/whatsapp.png")}
+              src={require("../../imgs/png/whatsapp.png")}
               alt=""
             />
           </a>
@@ -29,7 +29,7 @@ export default function ContactSection() {
           >
             <img
               className="socialmedia-img"
-              src={require("../imgs/svg/email.svg").default}
+              src={require("../../imgs/svg/email.svg").default}
               alt=""
             />
           </a>
@@ -49,7 +49,7 @@ export default function ContactSection() {
           >
             <img
               className="socialmedia-img"
-              src={require("../imgs/svg/linkedin.svg").default}
+              src={require("../../imgs/svg/linkedin.svg").default}
               alt=""
             />
           </a>

@@ -1,40 +1,8 @@
 import SectionContentTitle from "./SectionContentTitle";
-import "../styles-about.css";
+import { hobbies } from '../../Data/hobbies.js';
+import "../../styles-about.css";
 
 export default function AboutSection() {
-  const objFigBike = {
-    img1: {
-      src: require("../imgs/png/bici1.png"),
-      title: "Componentes de mí actual bicicleta",
-    },
-    img2: {
-      src: require("../imgs/png/bici2.png"),
-      title: "Mí actual bicicleta rodando (yo, sano y salvo)",
-    },
-  };
-
-  const objFigTattoo = {
-    img1: {
-      src: require("../imgs/png/tattoo1.png"),
-      title: "Plantilla presentada en piel sintética",
-    },
-    img2: {
-      src: require("../imgs/png/tattoo2.png"),
-      title: "Tatuaje terminado",
-    },
-  };
-
-  const objFigGamer = {
-    img1: {
-      src: require("../imgs/png/arcade1.png"),
-      title: "Pedestal y Raspberry Pi Model B",
-    },
-    img2: {
-      src: require("../imgs/png/arcade2.png"),
-      title: "Disfrutando un buen juego",
-    },
-  };
-
   return (
     <>
       <SectionContentTitle title="Sobre Mí" />
@@ -128,43 +96,42 @@ export default function AboutSection() {
           Mi gran pasión son las bicicletas, es mi medio de transporte preferido
           y más utilizado, me gusta conocer todo sobre ellas. Aprendí sobre
           armado y mecánica participando en un grupo con el que practicamos por
-          más de 3 años descenso en cerro (downhill). Con esta primera experiencia,
-          obtuve las habilidades necesarias para poder obtener componentes de
-          una bicicleta por separado y armarla completamente. De esta forma he
-          tenido la oportunidad de conocer distintas disciplinas en el ciclismo
-          aficionado, como bicicletas de pista y actualmente utilizo una de tipo
-          ruta. Disfruto mucho el desafío que involucra armar una bicicleta y de
-          hacerlo correctamente para no sufrir accidentes al momento de probarla
-          en terreno.
+          más de 3 años descenso en cerro (downhill). Gracias a esta primera
+          experiencia, adquirí los conocimientos necesarios para buscar
+          componentes de una bicicleta por separado y armarla completamente. De
+          esta forma he tenido la oportunidad de conocer distintas disciplinas
+          en el ciclismo aficionado, como bicicletas de pista y actualmente
+          utilizo una de tipo ruta. Disfruto mucho el desafío que involucra
+          armar una bicicleta y de hacerlo correctamente para no sufrir
+          accidentes al momento de probarla en terreno.
         </p>
-        <AboutFigureContainer objFigure={objFigBike} />
+        <AboutFigureContainer objFigure={hobbies.bike} />
       </div>
       <div className="content-section">
         <p className="style-content">
           Otro pasatiempo que disfruto mucho son los tatuajes. El intentar hacer
           un buen dibujo (aunque considero que me falta práctica), estudiar
-          técnicas y métodos para aplicar correctamente trazado de líneas y
-          saturación de color con la maquina en alguna zona específica a tatuar
-          (algo que erquiere mucha concentración), sumando a un ambiente con
-          buena música, es algo que me relaja mucho.
+          técnicas y métodos para aplicar trazado de líneas y saturación de
+          color correctamente (algo que requiere mucha concentración), sumando a
+          un ambiente con buena música, es algo que me relaja mucho.
         </p>
-        <AboutFigureContainer objFigure={objFigTattoo} />
+        <AboutFigureContainer objFigure={hobbies.tattoo} />
       </div>
       <div className="content-section">
         <p className="style-content">
-          Por último quiero mostrar mi afición por los juegos arcade. Esto
-          es algo que también me gusta mucho, me recuerda mi infancia y las
-          tardes de entretenimento con amigos intentando conseguir algun nuevo
-          truco, compartiendo técnicas de juego y anotandolas en papel,
-          discutiendo sobre escenarios secretos si era el caso, o simplemente
-          divirtiendonos todos juntos. En mis tiempos libres arme un pedestal
-          con palancas y botones, configuré el sistema operativo en una
-          Raspberry Pi 3 Model B, conseguí una imagen con mas de 40 gb de
-          juegos, y cada vez que recuerdo o leo algún título arcade por algún
-          foro de internet, lo busco y cargo en mi máquina para jugarlo cuando
-          el tiempo me lo permite.
+          Por último quiero mostrar mi afición por los juegos arcade. Esto es
+          algo que también me gusta mucho, me recuerda mi infancia y las tardes
+          de entretenimento con amigos intentando conseguir algun nuevo truco,
+          compartiendo técnicas de juego y anotandolas en papel, discutiendo
+          sobre escenarios secretos si era el caso, o simplemente divirtiendonos
+          todos juntos. En mis tiempos libres arme un pedestal con palancas y
+          botones, configuré el sistema operativo en una Raspberry Pi 3 Model B,
+          conseguí una imagen con mas de 40 gb de juegos, y cada vez que
+          recuerdo o leo algún título arcade por algún foro de internet, lo
+          busco y cargo en mi máquina para jugarlo cuando el tiempo me lo
+          permite.
         </p>
-        <AboutFigureContainer objFigure={objFigGamer} />
+        <AboutFigureContainer objFigure={hobbies.gamer} />
       </div>
     </>
   );

@@ -1,7 +1,7 @@
-import HeaderCubeLogo from "./HeaderCubeLogo";
-import HeaderSocialMedia from "./HeaderSocialMedia";
-import NavDesk from "./NavDesk";
-import NavMobile from "./NavMobile";
+import HeaderCubeLogo from "../HeaderCubeLogo";
+import HeaderSocialMedia from "../HeaderSocialMedia";
+import NavDesk from "../NavMenus/NavDesk";
+import NavMobile from "../NavMenus/NavMobile";
 
 export default function Header({section, setSection}) {
   return (

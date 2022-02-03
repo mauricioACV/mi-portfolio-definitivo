@@ -7,7 +7,7 @@ export default function BlogSection() {
       <div className="blog-items-container">
         <div className="item-container blog-post-container">
           <div className="post-img">
-            <img src={require("../imgs/png/programming.png")} alt="" />
+            <img src={require("../../imgs/png/programming.png")} alt="" />
           </div>
           <div className="post-details">
             <a
@@ -23,7 +23,7 @@ export default function BlogSection() {
         <div className="item-container blog-post-container">
           <div className="post-img">
             <img
-              src={require("../imgs/svg/logo-dark-socket.svg").default}
+              src={require("../../imgs/svg/logo-dark-socket.svg").default}
               alt=""
             />
           </div>
@@ -36,7 +36,7 @@ export default function BlogSection() {
         </div>
         <div className="item-container blog-post-container">
           <div className="post-img">
-            <img src={require("../imgs/png/programming.png")} alt="" />
+            <img src={require("../../imgs/png/programming.png")} alt="" />
           </div>
           <div className="post-details">
             <p className="post-title">¿Que es la programación funcional?</p>
@@ -46,7 +46,7 @@ export default function BlogSection() {
         <div className="item-container blog-post-container">
           <div className="post-img">
             <img
-              src={require("../imgs/svg/logo-dark-socket.svg").default}
+              src={require("../../imgs/svg/logo-dark-socket.svg").default}
               alt=""
             />
           </div>
@@ -60,7 +60,7 @@ export default function BlogSection() {
         <div className="item-container blog-post-container">
           <div className="post-img">
             <img
-              src={require("../imgs/svg/logo-dark-socket.svg").default}
+              src={require("../../imgs/svg/logo-dark-socket.svg").default}
               alt=""
             />
           </div>
@@ -74,7 +74,7 @@ export default function BlogSection() {
         <div className="item-container blog-post-container">
           <div className="post-img">
             <img
-              src={require("../imgs/svg/logo-dark-socket.svg").default}
+              src={require("../../imgs/svg/logo-dark-socket.svg").default}
               alt=""
             />
           </div>

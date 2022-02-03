@@ -1,0 +1,79 @@
+/* :root {
+    --page: #20232ae5;
+    --intro: #424044;
+    --primary: rgb(117, 3, 47);
+    --secondary: #192824;
+    --background: #192824;
+    --blue: #0e1eac;
+    --green: rgb(11, 240, 133);
+    --yellow: #c7a80f;
+    --orange: #bd713a;
+    --red: #c90a0a;
+  } */
+  
+  .post-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .post-date {
+    font-size: 11px;
+  }
+
+  .section-r-card {
+    overflow-y: auto;
+    min-height: 200px;
+    width: 100%;
+  }
+  
+  .section-r-card h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  
+  .section-r-card {
+    background-color: var(--page);
+    display: block;
+    width: 85%;
+    height: 70%;
+    cursor: pointer;
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: 3px solid var(--primary);
+    box-shadow: 1px 9px 14px -2px rgba(0, 0, 0, 0.53),
+      10px -10px 0 -3px var(--page), 10px -10px var(--intro),
+      20px -20px 0 -3px var(--page), 20px -20px var(--intro);
+  }
+
+  .section-r-card::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  .section-r-card::-webkit-scrollbar-track {
+    background: #0d0e11e5;
+  }
+  
+  .section-r-card::-webkit-scrollbar-thumb {
+    background-color: rgb(76, 76, 97);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+  }
+  
+  @media screen and (max-width: 690px) {
+    .section-r-card {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      overflow-y: auto;
+      box-shadow: none;
+    }
+
+    .section-r-card p {
+      font-size: 11px;
+    }
+    .section-r-title {
+      font-size: 18px;
+    }
+  }
+  

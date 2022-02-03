@@ -30,7 +30,7 @@ function NavMobileOptions({ setSection }) {
     <ul className="nav-menu-movil">
       <div className="close-icon-container">
         <label htmlFor="check-van-mobile">
-          <img src={require("../imgs/svg/close.svg").default} alt="" />
+          <img src={require("../../imgs/svg/close.svg").default} alt="" />
         </label>
       </div>
       <div className="nav-mobile-options">
@@ -75,7 +75,7 @@ function SocialMediaNavMobile() {
       >
         <img
           className="socialmedia-img"
-          src={require("../imgs/svg/linkedin.svg").default}
+          src={require("../../imgs/svg/linkedin.svg").default}
           alt=""
         />
       </a>
@@ -86,7 +86,7 @@ function SocialMediaNavMobile() {
       >
         <img
           className="socialmedia-img"
-          src={require("../imgs/svg/github.svg").default}
+          src={require("../../imgs/svg/github.svg").default}
           alt=""
         />
       </a>
@@ -97,7 +97,7 @@ function SocialMediaNavMobile() {
       >
         <img
           className="socialmedia-img"
-          src={require("../imgs/png/whatsapp.png")}
+          src={require("../../imgs/png/whatsapp.png")}
           alt=""
         />
       </a>

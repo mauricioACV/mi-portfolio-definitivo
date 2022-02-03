@@ -6,12 +6,12 @@ export const projects = [
     intro_description:
       'Este es un proyecto utilizado por usuarios a lo largo de todo el país (Chile) para gestionar la administración de contratos de obras viales licitados a contratistas externos. Existe un centro de gestión por Región y el desarrollo requiere de interoperabilidad entre sistemas involucrados en el ciclo de vida de contratos.',
     description:
-      "El Sistema de Administración de Contratos (SAC), es una herramienta administrativa que permite el control y seguimiento de indicadores de gestión en obras viales, como por ejemplo avance físico, avance financiero, proyección de mano de obra, entre muchas otras prestaciones. Su desarrollo involucra consideraciones técnicas de arquitectura de software y patrones de diseño tales como patrón de repositorios, patrón creacional de repositorios, patrón creacional de objetos, etc. Esto con el objetivo de permitir el crecimiento continuo de funcionalidades sin perder calidad. Además, integra servicios web institucionales, y la arquitectura de servidores se encuentra distribuida en aplicaciones, base de datos, y repositorio y versionamiento documental. Actualmente se encuentran en producción varias funcionalidades requeridas y se siguen agregando más de forma iterativa.",
+      "El Sistema de Administración de Contratos (SAC), es una herramienta administrativa que facilita el control y seguimiento de indicadores de gestión en obras viales, como por ejemplo avance físico, avance financiero, proyección de mano de obra, entre muchas otras prestaciones. Su desarrollo involucra consideraciones técnicas de arquitectura de software y patrones de diseño tales como patrón de repositorios, patrón creacional de repositorios, patrón creacional de objetos, etc. Esto con el objetivo de permitir el crecimiento continuo de funcionalidades sin perder calidad. Además, integra servicios web institucionales, y la arquitectura de servidores se encuentra distribuida en aplicaciones, base de datos, y repositorio y versionamiento documental. Actualmente se encuentran en producción varias funcionalidades requeridas y se siguen agregando más de forma iterativa.",
     languajes: ["css", "html", "js", "c-sharp"],
     libraries: {img: "", text:"MVC5 .Net"},
     extra: { title: "Data", text: "Oracle 11g", img: null },
     backend: "C# .Net Framework",
-    link_app: {demo:"demo video", url:"https://youtu.be/L-bMqzUyM1E"},
+    link_app: {demo:"demo video", url:"https://youtu.be/JqOOPTSeBiI"},
     link_repo: "https://github.com/mauricioACV/SistemaSacMvc5Ver.2",
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     intro_description:
       'Mi portfolio fue construido en React, y tiene por objetivo ser mi carta de presentación profesional, permitiendo acceder a información sobre mí experiencia en el rubro y cargos que he desempeñado, proyectos relevantes que he desarrollado, habilidades y competencias, medios de contactos y mis redes sociales.',
     description:
-      "Este proyecto cuenta con vista responsive adaptado a distintos tamaños de pantalla. En una siguiente versión se incorporará un blog de contenido que me permita presentar posts sobre contenidos que voy aprendiendo y consolidando, además de permitir a otras personas publicar sobre desarrollo web.",
+      "Este proyecto cuenta con vista responsive adaptado a distintos tamaños de pantalla. En una siguiente versión se incorporará un blog que me permita presentar posts sobre contenidos que voy aprendiendo y consolidando, además de permitir a otras personas publicar sobre desarrollo web.",
     languajes: ["css", "html", "js"],
     libraries: {img: ["react"], text:null},
     extra: { title: null, text: null, img: null },
