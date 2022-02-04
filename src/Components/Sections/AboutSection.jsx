@@ -8,7 +8,8 @@ export default function AboutSection() {
       <SectionContentTitle title="Sobre Mí" />
       <div className="content-section">
         <p className="style-content">
-          Por lo general me llaman Mauro o Mau, y he tenido la oportunidad de
+          Mi nombre es Mauricio Alejandro Campusano Villarroel, pero
+          generalmente me llaman Mauro o Mau. He tenido la oportunidad de
           participar en variados proyectos dentro del servicio público,
           liderando algunos de ellos. Me motiva aportar a lo largo de todo el
           proceso de construcción de software, colaborando en la definición de

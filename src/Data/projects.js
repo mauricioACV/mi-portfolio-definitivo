@@ -51,7 +51,7 @@ export const projects = [
     intro_description:
       'En este proyecto si implementa el manejo asíncrono en JavaScript, así como el uso de los hooks useState, useEffect y useContext. La aplicación, además de ofrecer la búsqueda de gifs, también dispone la opción de modo nocturno o “dark mode", y al iniciar muestra 15 trending gif.',
     description:
-      "En este proyecto se utilizó React Context como alternativa a prop drilling, con el objetivo de compartir datos y estados entre componentes, como por ejemplo, indicar a cada componente si el usuario alternó entre el modo claro y oscuro de la app. Context está diseñado para compartir datos que pueden considerarse “globales” para un árbol de componentes en React. También se implementa un custom hook para realizar las peticiones a la api de Giphy, y una implementación de un closure para ejecutar la técnica de memorización de estado.",
+      "En este proyecto se utilizó React Context como alternativa a prop drilling, con el objetivo de compartir datos y estados entre componentes, como por ejemplo, indicar a cada componente si el usuario alternó entre el modo claro y oscuro de la app. Context está diseñado para compartir datos que pueden considerarse “globales” para un árbol de componentes en React. También se implementa un custom hook para realizar las peticiones a la api de Giphy, y la implementación de un closure para ejecutar la técnica de memorización de estado.",
     languajes: ["css", "html", "js"],
     libraries: {img: ["react"], text:null},
     extra: { title: "Api", text: "Giphy Developers", img: null },
