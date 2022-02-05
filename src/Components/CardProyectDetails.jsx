@@ -114,7 +114,7 @@ function CardProjectBody({
           <div className="feature">
             <div className="featureIcon"></div>
             <div className="featureText">
-              <p className="featureText-title">Librería</p>
+              <p className="featureText-title">{libraries.title}</p>
               {libraries.img ? (
                 <img
                   className="featureText-img"

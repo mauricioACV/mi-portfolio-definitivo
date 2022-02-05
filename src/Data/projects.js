@@ -8,7 +8,7 @@ export const projects = [
     description:
       "El Sistema de Administración de Contratos (SAC), es una herramienta administrativa que facilita el control y seguimiento de indicadores de gestión en obras viales, como por ejemplo avance físico, avance financiero, proyección de mano de obra, entre muchas otras prestaciones. Su desarrollo involucra consideraciones técnicas de arquitectura de software y patrones de diseño tales como patrón de repositorios, patrón creacional de repositorios, patrón creacional de objetos, etc. Esto con el objetivo de permitir el crecimiento continuo de funcionalidades sin perder calidad. Además, integra servicios web institucionales, y la arquitectura de servidores se encuentra distribuida en aplicaciones, base de datos, y repositorio y versionamiento documental. Actualmente se encuentran en producción varias funcionalidades requeridas y se siguen agregando más de forma iterativa.",
     languajes: ["css", "html", "js", "c-sharp"],
-    libraries: {img: "", text:"MVC5 .Net"},
+    libraries: {title:"Framework", img: "", text:"MVC5 .Net"},
     extra: { title: "Data", text: "Oracle 11g", img: null },
     backend: "C# .Net Framework",
     link_app: {demo:"demo video", url:"https://youtu.be/JqOOPTSeBiI"},
@@ -23,7 +23,7 @@ export const projects = [
     description:
       "Para el  proyecto, se requiere una vista con un feed de mensajes. Las personas usuarias podrán también hacer social sign up/login con una cuenta de Google y publicar/borrar mensajes, así como también ver los publicados por las demás personas usuarias. La base de datos e integración con Google para el login/sign up es realizada por medio de Firebase. El proyecto deberá ser desplegado y accesible en una URL pública a través de servicios como Github, Netlify o Firebase Hosting. La aplicación cuenta con vista responsive basado a maqueta Figma con referencias gráficas de cómo se vería el proyecto en dispositivos portátiles. Se utiliza React Context para compartir datos sobre login de usuario de forma global, render props, React Router.",
     languajes: ["css", "html", "js"],
-    libraries: {img: ["react"], text:null},
+    libraries: {title:"Librería", img: ["react"], text:null},
     extra: { title: "Data", text: "Firestore", img: null },
     backend: "Firebase",
     link_app: {demo:"demo app", url:"https://dev-united-mcampusano.web.app/"},
@@ -38,7 +38,7 @@ export const projects = [
     description:
       "Este proyecto cuenta con vista responsive adaptado a distintos tamaños de pantalla. En una siguiente versión se incorporará un blog que me permita presentar posts sobre contenidos que voy aprendiendo y consolidando, además de permitir a otras personas publicar sobre desarrollo web.",
     languajes: ["css", "html", "js"],
-    libraries: {img: ["react"], text:null},
+    libraries: {title:"Librería", img: ["react"], text:null},
     extra: { title: null, text: null, img: null },
     backend: null,
     link_app: {demo:"demo app", url:"https://mauricioacv.github.io/portfolio/"},
@@ -53,10 +53,10 @@ export const projects = [
     description:
       "En este proyecto se utilizó React Context como alternativa a prop drilling, con el objetivo de compartir datos y estados entre componentes, como por ejemplo, indicar a cada componente si el usuario alternó entre el modo claro y oscuro de la app. Context está diseñado para compartir datos que pueden considerarse “globales” para un árbol de componentes en React. También se implementa un custom hook para realizar las peticiones a la api de Giphy, y la implementación de un closure para ejecutar la técnica de memorización de estado.",
     languajes: ["css", "html", "js"],
-    libraries: {img: ["react"], text:null},
+    libraries: {title:"Librería", img: ["react"], text:null},
     extra: { title: "Api", text: "Giphy Developers", img: null },
     backend: null,
-    link_app: {demo:"demo app", url:"https://7mn1s.csb.app/"},
+    link_app: {demo:"demo app", url:"https://mauricioacv.github.io/React-JS-Proyecto-GIFos-Acamica/"},
     link_repo: "https://github.com/mauricioACV/React-JS-Proyecto-GIFos-Acamica",
   },
   {
@@ -68,7 +68,7 @@ export const projects = [
     description:
       "Este es un proyecto simple pero muy potente en cuanto al uso de funciones de JavaScript, como filter y map por ejemplo. El manejo de fechas se implementó sin librerías externas, desarrollando lógica propia. También se generaron abstracciones para reutilización de funciones, obteniendo componentes con menos código duplicado.",
     languajes: ["css", "html", "js"],
-    libraries: {img: ["react"], text:null},
+    libraries: {title:"Librería", img: ["react"], text:null},
     extra: { title: null, text: null, img: null },
     backend: null,
     link_app: {demo:"demo app", url:"https://4th5k.csb.app/"},

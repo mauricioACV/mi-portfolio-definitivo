@@ -15,10 +15,16 @@ export default function SectionContent({ section }) {
 }
 
 function RenderSection({ section }) {
-  if (section === "ACERCA DE") return <AboutSection />;
-  if (section === "PROYECTOS") return <ProjectsSection/>;
-  if (section === "SKILLS") return <SkillsSection/>;
-  if (section === "BLOG") return <BlogSection />;
-  if (section === "CONTACTO") return <ContactSection />;
-  return "";
+  switch (section) {
+    case "ACERCA DE":
+      return <AboutSection />;
+    case "PROYECTOS":
+      return <ProjectsSection />;
+    case "SKILLS":
+      return <SkillsSection />;
+    case "BLOG":
+      return <BlogSection />;
+    case "CONTACTO":
+      return <ContactSection />;
+  }
 }

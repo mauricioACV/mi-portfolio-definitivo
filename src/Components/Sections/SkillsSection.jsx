@@ -43,7 +43,7 @@ export default function SkillsSection() {
           </ul>
         </div>
       </div>
-      <SectionContentTitle title="Interesado en" />
+      <SectionContentTitle title="Interés Personal" />
       <div className="content-section skills-style">
         <div className="item-container">
           <h3>Próximas Tecnologías</h3>
