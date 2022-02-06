@@ -71,7 +71,7 @@ export const projects = [
     libraries: {title:"Librería", img: ["react"], text:null},
     extra: { title: null, text: null, img: null },
     backend: null,
-    link_app: {demo:"demo app", url:"https://4th5k.csb.app/"},
+    link_app: {demo:"demo app", url:"https://mauricioacv.github.io/React-JS-Proyecto-Hoteles-Acamica/"},
     link_repo: "https://github.com/mauricioACV/React-JS-Proyecto-GIFos-Acamica",
   },
 ];
