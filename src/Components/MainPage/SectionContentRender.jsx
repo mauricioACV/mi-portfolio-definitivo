@@ -26,5 +26,7 @@ function RenderSection({ section }) {
       return <BlogSection />;
     case "CONTACTO":
       return <ContactSection />;
+    default:
+      return <AboutSection/>
   }
 }

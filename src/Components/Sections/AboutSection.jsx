@@ -113,7 +113,7 @@ export default function AboutSection() {
           Otro pasatiempo que disfruto mucho son los tatuajes. El intentar hacer
           un buen dibujo (aunque considero que me falta práctica), estudiar
           técnicas y métodos para aplicar trazado de líneas y saturación de
-          color correctamente (algo que requiere mucha concentración), sumando a
+          color correctamente (algo que requiere mucha concentración), junto a
           un ambiente con buena música, es algo que me relaja mucho.
         </p>
         <AboutFigureContainer objFigure={hobbies.tattoo} />
