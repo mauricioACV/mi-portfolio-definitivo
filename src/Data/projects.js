@@ -31,6 +31,21 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Landing Page Campcon",
+    shot_title:"Campcon",
+    intro_description:
+      'Propuesta de landing page para empresa especialista en demarcaciones viales y seguridad industrial. Actualmente se encuentra desplegada en github pages para visualización y validación de los interesados. Una vez aceptada la propuesta se finalizan detalles del sitio y se despliega en hosting definitivo.',
+    description:
+      "Este proyecto se desarrolla como sitio estático solo con html, css y Javascript. A través del módulo de media query en css3 el sitio se adapta a diferentes tamaños de pantalla, centrando los esfuerzos en una correcta visualización en smartphones. Una herramienta que me sirvió mucho en este desarrollo fue Prepos, un pre-procesador que compila LESS, Sass, SCSS, entre otros. Con la funcionalidad de procesar archivos en tiempo real, pude modificar el css (puro) en tiempo de codificación y Prepos implementa los prefijos para todos lo navegadores en el archivo utilizado en producción.",
+    languajes: ["css", "html", "js"],
+    libraries: {title:null, img: null, text:null},
+    extra: { title: null, text: null, img: null },
+    backend: null,
+    link_app: {demo:"landing page", url:"https://mauricioacv.github.io/Sitio-CampCon/"},
+    link_repo: "https://github.com/mauricioACV/Sitio-CampCon",
+  },
+  {
+    id: 4,
     title: "Proyecto Portfolio",
     shot_title:"Mi portfolio",
     intro_description:
@@ -45,7 +60,7 @@ export const projects = [
     link_repo: "https://github.com/mauricioACV/portfolio",
   },
   {
-    id: 4,
+    id: 5,
     title: "Proyecto GifOS",
     shot_title:"GifOS",
     intro_description:
@@ -60,7 +75,7 @@ export const projects = [
     link_repo: "https://github.com/mauricioACV/React-JS-Proyecto-GIFos-Acamica",
   },
   {
-    id: 5,
+    id: 6,
     title: "Proyecto Reserva Hotel",
     shot_title:"Reserva Hotel",
     intro_description:
