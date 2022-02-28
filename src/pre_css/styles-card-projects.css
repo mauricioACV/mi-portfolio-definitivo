@@ -15,7 +15,7 @@
 
 .wrapper {
   position: relative;
-  max-width: 350px;
+  max-width: 400px;
   height: 100%;
   border-radius: 6px;
   background: #2c3041;
@@ -30,7 +30,7 @@
 }
 
 .overviewInfo {
-  background-image: linear-gradient(176deg, var(--lightblue), var(--darkblue));
+  background-image: linear-gradient(176deg, #423550a4, #554468b6);
 }
 
 .productinfo {
@@ -73,7 +73,7 @@
   text-decoration: none;
   font-size: 13px;
   opacity: 1;
-  color: rgb(170, 163, 163);
+  color: #fff;
 }
 
 .grouptext-info {
@@ -111,6 +111,11 @@
 .featureText-content {
   font-size: 14px;
   font-weight: 200;
+}
+
+.featureText-details {
+  display: flex;
+  align-items: center;
 }
 
 .featureText-img {

@@ -16,6 +16,21 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Proyecto Chat Sockets",
+    shot_title:"Chat Sockets",
+    intro_description:
+      "Aplicación en tiempo real utilizando web sockets. Dispone de avatars que pueden ser seleccionados por los usuarios, además de 3 rooms con temas por defecto y la posibilidad de crear nuevas salas de chat. Implementa librería react-emoji para convertir emoji de tipo text a tipo icon.",
+    description:
+      `Fue entretenido el desarrollo de este proyecto, implementar websockets para el intercambio de información en tiempo real debe ser una de las herramientas más poderosas en aplicaciones web. Utilicé la librería sockets.io en la construcción de esta aplicación, su api es muy intuitiva y hace que sea muy simple la recepción y emisión de eventos, sobre todo con sus funcionalidades para enviar mensajes a un usuario en particular, a un room completo, como también a todos y cada uno de los componentes dentro de nuestra app que están esperando una emisión de evento tipo broadcast para actualizar el estado de data. El deploy del cliente se realiza en Netlify utilizando su cli e implementando un script para automatizar el proceso de construcción y publicación, y por parte del server, este se encuentra desplegado en Heroku.`,
+    languajes: ["css", "html", "js"],
+    libraries: {title:"Librería", img: ["react", "socketio"], text:null},
+    extra: { title: "Server Deploy", text: "Heroku", img: "heroku" },
+    backend: "Node + Express",
+    link_app: {demo:"demo app", url:"https://react-chat-app-mauro.netlify.app/"},
+    link_repo: "https://github.com/mauricioACV/chat-app-react-socket",
+  },
+  {
+    id: 3,
     title: "Proyecto Dev_United",
     shot_title:"Dev_United",
     intro_description:
@@ -30,7 +45,7 @@ export const projects = [
     link_repo: "https://github.com/mauricioACV/React-JS-Proyecto-Dev_United-FireBase-Acamica-",
   },
   {
-    id: 3,
+    id: 4,
     title: "Landing Page Campcon",
     shot_title:"Campcon",
     intro_description:
@@ -45,7 +60,7 @@ export const projects = [
     link_repo: "https://github.com/mauricioACV/Sitio-CampCon",
   },
   {
-    id: 4,
+    id: 5,
     title: "Proyecto Portfolio",
     shot_title:"Mi portfolio",
     intro_description:
@@ -60,7 +75,7 @@ export const projects = [
     link_repo: "https://github.com/mauricioACV/portfolio",
   },
   {
-    id: 5,
+    id: 6,
     title: "Proyecto GifOS",
     shot_title:"GifOS",
     intro_description:
@@ -75,7 +90,7 @@ export const projects = [
     link_repo: "https://github.com/mauricioACV/React-JS-Proyecto-GIFos-Acamica",
   },
   {
-    id: 6,
+    id: 7,
     title: "Proyecto Reserva Hotel",
     shot_title:"Reserva Hotel",
     intro_description:

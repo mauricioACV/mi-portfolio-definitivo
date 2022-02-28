@@ -40,6 +40,15 @@ export default function CardProyectDetails({ project }) {
 }
 
 function CardProjectHeader({ shot_title, link_app, link_repo }) {
+  const styleHeader = {
+    backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 7, 1), rgba(0, 0, 7, 0.9))
+    ,url(${require("../imgs/png/projects/campcon.png")})`,
+    backgroundBlendMode: "darken, luminosity",
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    objectFit: 'cover',
+    backgroundPosition: '50% 50%',
+  };
   return (
     <div className="overviewInfo">
       <div className="productinfo">
@@ -91,6 +100,7 @@ function CardProjectBody({
   backend,
   setOpenModal,
 }) {
+  console.log(libraries);
   return (
     <div className="productSpecifications">
       <h1>{title}</h1>
@@ -116,11 +126,13 @@ function CardProjectBody({
             <div className="featureText">
               <p className="featureText-title">{libraries.title}</p>
               {libraries.img ? (
-                <img
-                  className="featureText-img"
-                  src={require(`../imgs/png/${libraries.img}.png`)}
-                  alt=""
-                />
+                libraries.img.map(img=>(
+                  <img
+                    className="featureText-img"
+                    src={require(`../imgs/png/${img}.png`)}
+                    alt=""
+                  />
+                ))
               ) : (
                 <p className="featureText-content">{libraries.text}</p>
               )}
@@ -132,7 +144,16 @@ function CardProjectBody({
             <div className="featureIcon"></div>
             <div className="featureText">
               <p className="featureText-title">{extra.title}</p>
-              <p className="featureText-content">{extra.text}</p>
+              <div className="featureText-details">
+                {extra.img && (
+                  <img
+                    className="featureText-img"
+                    src={require(`../imgs/png/${extra.img}.png`)}
+                    alt=""
+                  />
+                )}
+                <p className="featureText-content">{extra.text}</p>
+              </div>
             </div>
           </div>
         )}
