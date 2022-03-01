@@ -729,6 +729,13 @@ html a {
     text-align: center;
     font-size: 30px;
   }
+  .resume-container {
+    top: 60px;
+    left: 1%;
+}
+.top-content{
+    margin-top: 30px;
+}
   .footer-mobile {
     padding: 10px;
     display: flex;

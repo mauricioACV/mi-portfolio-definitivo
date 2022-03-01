@@ -20,7 +20,7 @@ export default function AboutSection() {
           />
           <p>Download Resume</p>
         </a>
-        <p className="style-content">
+        <p className="style-content top-content">
           Mi nombre es Mauricio Alejandro Campusano Villarroel, pero
           generalmente me llaman Mauro o Mau. Cuento con más de 10 años de
           experiencia en proyectos informáticos de distinta índole dentro del
