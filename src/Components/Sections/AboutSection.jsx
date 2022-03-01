@@ -4,33 +4,39 @@ import "../../styles-about.css";
 
 export default function AboutSection() {
   return (
-    <>
+    <div className="about-container">
       <SectionContentTitle title="Sobre Mí" />
       <div className="content-section">
+        <a
+          href={require("../../imgs/doc/mcamp-resume2022.pdf")}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="resume-container"
+        >
+          <img
+            src={require("../../imgs/svg/download.svg").default}
+            alt="download"
+            className="donwload-icon"
+          />
+          <p>Download Resume</p>
+        </a>
         <p className="style-content">
           Mi nombre es Mauricio Alejandro Campusano Villarroel, pero
-          generalmente me llaman Mauro o Mau. He tenido la oportunidad de
-          participar en variados proyectos dentro del servicio público,
-          liderando algunos de ellos. Me motiva aportar a lo largo de todo el
-          proceso de construcción de software, colaborando en la definición de
-          la problemática y determinación de sus causas directas, para
-          finalmente desarrollar y ver implementada la solución final. <br />
+          generalmente me llaman Mauro o Mau. Cuento con más de 10 años de
+          experiencia en proyectos informáticos de distinta índole dentro del
+          servicio público. Mis competencias se basan en 3 pilares: mi
+          experiencia en la gestión e implementación de tecnologías únicas en el
+          país (algunas incluso en LATAM), mi personalidad curiosa y
+          concienzuda, y mi motivación y proactividad para adquirir nuevos
+          conocimientos. Me caracterizo por ser metódico, comprometido y
+          entusiasta, de muy buen desempeño y adaptabilidad para trabajar en
+          equipos multidisciplinarios. <br />
           <br />
           Mis mayores logros en el desarrollo de aplicaciones son la
           construcción e implementación de una solución que actualmente se
           utiliza para evaluar la excepción de multas por razones geométricas en
           la construcción de caminos, y el desarrollo de un sistema de gestión
           de contratos de obras, ambos con alcance a nivel nacional. <br />
-          <br />
-          En mis años de experiencia, el trabajo en equipo ha sido fundamental
-          para lograr los objetivos definidos por la institución. He tenido la
-          oportunidad de ser líder de grupo e instructor de personal. Me gusta
-          mucho ayudar a mis compañeros de equipo y aprender de ellos también,
-          sobre todo en el estudio de la programación computacional. <br />
-          <br />
-          Me considero un profesional entusiasta y comprometido. El aprendizaje
-          constante y compartir conocimientos es algo que me gusta mucho, tanto
-          en el ámbito profesional como personal.
         </p>
       </div>
       <SectionContentTitle title="Mí experiencia" />
@@ -40,24 +46,48 @@ export default function AboutSection() {
         </p>
         <p className="style-content">Dic. 2019 – actualidad</p>
         <p className="style-content task-title">
-          Responsable de implementar soluciones de software en procesos de
-          gestión del Departamento de Contratos a nivel Nacional. Esta etapa fue
-          un gran paso profesional, ya que me ha permitido participar
-          activamente durante todo el ciclo de planificación e implementación de
-          proyectos.
+          Desarrollador Web en el Departamento de Adm. y Gestión de Contratos.
+          Los desafíos más importantes son implementar metodología de trabajo
+          para la gestión del proyecto, priorización de requerimientos, y
+          desarrollo de funcionalidades. Adaptarme a framework de Front End ya
+          definido (MCV5 .Net), y aportar mejoras e innovaciones para la
+          transformación digital de procesos administrativos del departamento.
         </p>
-        <p className="style-content task-title func-title">
-          Principales funciones:
-        </p>
+        <p className="style-content task-title func-title">Logros:</p>
         <ul className="task-list">
-          <li>Desarrollo Front-End.</li>
-          <li>Desarrollo Back-end.</li>
-          <li>Gestión de Proyecto.</li>
           <li>
-            Integración de servicios Institucionales (Alfresco, WebServices,
-            interoperabilidad entre sistemas).
+            Implementar parte del framework de scrum, basándose en el contexto
+            del departamento, obteniendo muy buenos resultados.
           </li>
-          <li>Base de datos Oracle 11g.</li>
+          <li>
+            Dar solución a problemas de interfaces de usuario en sistema
+            heredado.
+          </li>
+          <li>
+            Logro mejorar la mala percepción de experiencia de usuario con la
+            aplicación.
+          </li>
+          <li>
+            Desarrollo de nuevo sistema para administración de contratos
+            nacional.
+          </li>
+          <li>
+            Definición de problemas, objetivos específicos, y métricas de
+            cumplimiento en el desarrollo de nuevas funcionalidades.
+          </li>
+          <li>
+            Llevar a cabo las transformaciones digitales exigidas al
+            departamento por la Controlaría General de la República.
+          </li>
+          <li>Interoperabilidad entre sistemas institucionales.</li>
+          <li>
+            Confeccionar épicas, historias de usuario, desglose de tareas, y
+            estimación de esfuerzos.
+          </li>
+          <li>
+            Aplicar conjunto de técnicas, principios y metodologías de buenas
+            prácticas de programación.
+          </li>
         </ul>
       </div>
       <div className="content-section">
@@ -66,29 +96,42 @@ export default function AboutSection() {
         </p>
         <p className="style-content">2009 – 2019</p>
         <p className="style-content task-title">
-          Periodo de mucho aprendizaje, crecimiento y trabajo en equipo, en
-          donde tuve la oportunidad de ser instructor de personal y de
-          estudiantes externos, descubrí mi vocación de enseñar y también
-          aprender de mis compañeros de equipo.
+          Etapa profesional en la que fui responsable de liderar proyectos de
+          implementaciones tecnológicas únicas en al país, en algunos casos en
+          base solo a documentación técnica en inglés, y en otros, en conjunto
+          con técnicos pertenecientes a proveedores internacionales. Además,
+          participo en proyectos dentro de equipos multidisciplinarios para el
+          desarrollo de aplicaciones que facilitan la fiscalización, en
+          controles de calidad de parámetros geométricos y estudios teóricos.
         </p>
-        <p className="style-content task-title func-title">
-          Principales funciones:
-        </p>
+        <p className="style-content task-title func-title">Logros:</p>
         <ul className="task-list">
           <li>
-            Desarrollo de interfaces de usuario para aplicación de escritorio y
-            web.
-          </li>
-          <li>Gestión de Proyecto.</li>
-          <li>
-            Líder de equipo campañas de operación y mediciones con instrumentos
-            de laboratorio (control e investigación).
+            Desarrollo de software stack HTML, CSS y JavaScript, coordinando
+            requerimientos de 6 sub departamentos del Laboratorio de Vialidad
+            con metodología ágil (SCRUM).
           </li>
           <li>
-            Actualización y mantención de rutinas embebidas en
-            microcontroladores de equipos de medición.
+            Desarrollo de aplicación de escritorio para el recálculo de cotas a
+            partir de datos en planos AutoCAD (mecanismo de evaluación de multas
+            vigente en 2022 a nivel nacional).
           </li>
-          <li>Administración Web de Portal Sitios SharePoint (Colabora).</li>
+          <li>
+            Responsable de recibir capacitación de equipos (hardware y
+            software), interactuando con proveedores de Inglaterra, Canadá y
+            Australia, para posteriormente ser responsable del stack y/o
+            capacitar personal interno.
+          </li>
+          <li>
+            Líder de equipo en campañas de extracción, automatización en
+            procesos de datos, y desarrollo de entregables al área de análisis
+            estadístico.
+          </li>
+          <li>
+            Supervisión en instalación de estaciones colectoras de datos,
+            insertas en tramos de prueba (pavimento) en varias regiones del
+            país, para estudios y proyecciones estadísticas.
+          </li>
         </ul>
       </div>
       <SectionContentTitle title="Pasatiempos" />
@@ -134,7 +177,7 @@ export default function AboutSection() {
         </p>
         <AboutFigureContainer objFigure={hobbies.gamer} />
       </div>
-    </>
+    </div>
   );
 }
 

@@ -457,6 +457,22 @@ html a {
   align-items: center;
 }
 
+.about-container {
+    position: relative;
+}
+
+.resume-container {
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.donwload-icon {
+    width: 20px;
+}
+
 .section-title {
   font-size: 44px;
   font-family: "Kalam", cursive;
