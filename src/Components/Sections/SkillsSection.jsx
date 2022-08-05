@@ -26,10 +26,11 @@ export default function SkillsSection() {
             <li>- SQL Server</li>
             <li>- Google Firebase</li>
             <li>- Api Rest .Net Framework 4.x</li>
-            <li>- Api RestFul .Net Core 3.0</li>
+            <li>- Api Rest .Net Core 3.0</li>
+            <li>- Api Rest Node.js</li>
+            <li>- Express Js</li>
             <li>- Trello</li>
             <li>- Notion</li>
-            <li>- Miro</li>
           </ul>
         </div>
         <div className="item-container">
@@ -49,8 +50,6 @@ export default function SkillsSection() {
           <h3>Próximas Tecnologías</h3>
           <ul className="style-content">
             <li>- React Native</li>
-            <li>- Node.js</li>
-            <li>- Express</li>
           </ul>
           <br/>
           <h3>Próximos Libros</h3>

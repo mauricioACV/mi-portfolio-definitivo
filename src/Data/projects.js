@@ -11,8 +11,8 @@ export const projects = [
     libraries: {title:"Framework", img: "", text:"MVC5 .Net"},
     extra: { title: "Data", text: "Oracle 11g", img: null },
     backend: "C# .Net Framework",
-    link_app: {demo:"demo video", url:"https://youtu.be/JqOOPTSeBiI"},
-    link_repo: "https://github.com/mauricioACV/SistemaSacMvc5Ver.2",
+    link_app: {demo:"demo video", url:null},
+    link_repo: null,
   },
   {
     id: 2,

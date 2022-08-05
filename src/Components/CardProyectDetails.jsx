@@ -4,6 +4,7 @@ import ModalProjectDetail from "./ModalProjectDetail";
 export default function CardProyectDetails({ project }) {
   const [openModal, setOpenModal] = useState(false);
   const {
+    id,
     title,
     shot_title,
     intro_description,
@@ -18,7 +19,11 @@ export default function CardProyectDetails({ project }) {
 
   return (
     <div className="wrapper">
-      <CardProjectHeader shot_title={shot_title} link_app={link_app} link_repo={link_repo} />
+      <CardProjectHeader
+        shot_title={shot_title}
+        link_app={link_app}
+        link_repo={link_repo}
+      />
       <CardProjectBody
         title={title}
         intro_description={intro_description}
@@ -100,7 +105,6 @@ function CardProjectBody({
   backend,
   setOpenModal,
 }) {
-  console.log(libraries);
   return (
     <div className="productSpecifications">
       <h1>{title}</h1>
@@ -126,8 +130,9 @@ function CardProjectBody({
             <div className="featureText">
               <p className="featureText-title">{libraries.title}</p>
               {libraries.img ? (
-                libraries.img.map(img=>(
+                libraries.img.map((img, index) => (
                   <img
+                    key={index}
                     className="featureText-img"
                     src={require(`../imgs/png/${img}.png`)}
                     alt=""

@@ -1,5 +1,5 @@
 import SectionContentTitle from "./SectionContentTitle";
-import { hobbies } from '../../Data/hobbies.js';
+import { hobbies } from "../../Data/hobbies.js";
 import "../../styles-about.css";
 
 export default function AboutSection() {
@@ -8,7 +8,7 @@ export default function AboutSection() {
       <SectionContentTitle title="Sobre Mí" />
       <div className="content-section">
         <a
-          href={require("../../imgs/doc/mcamp-resume2022.pdf")}
+          href={require("../../doc/CV_Mauricio_Campusano_Villarroel.pdf")}
           target="_blank"
           rel="noopener noreferrer"
           className="resume-container"
@@ -22,21 +22,18 @@ export default function AboutSection() {
         </a>
         <p className="style-content top-content">
           Mi nombre es Mauricio Alejandro Campusano Villarroel, pero
-          generalmente me llaman Mauro o Mau. Cuento con más de 10 años de
-          experiencia en proyectos informáticos de distinta índole dentro del
-          servicio público. Mis competencias se basan en 3 pilares: mi
-          experiencia en la gestión e implementación de tecnologías únicas en el
-          país (algunas incluso en LATAM), mi personalidad curiosa y
-          concienzuda, y mi motivación y proactividad para adquirir nuevos
-          conocimientos. Me caracterizo por ser metódico, comprometido y
-          entusiasta, de muy buen desempeño y adaptabilidad para trabajar en
-          equipos multidisciplinarios. <br />
+          generalmente me llaman Mauro o Mau. Soy desarrollador fullstack con 4
+          años de experiencia en aplicaciones web, utilizando para el back end
+          C# .NET o Node.js en la implementación de servicios REST, y en el
+          front end, JavaScript con la librería React Js para desarrollo de
+          interfaces de usuario, aplicando siempre que puedo, principios SOLID,
+          patrones de diseño y buenas prácticas de programación. <br />
           <br />
-          Mis mayores logros en el desarrollo de aplicaciones son la
-          construcción e implementación de una solución que actualmente se
-          utiliza para evaluar la excepción de multas por razones geométricas en
-          la construcción de caminos, y el desarrollo de un sistema de gestión
-          de contratos de obras, ambos con alcance a nivel nacional. <br />
+          Me considero un profesional entusiasta y comprometido, con gran
+          interés en estudiar y comprender los fundamentos de las tecnologías
+          que me apasionan, aprender de personas con más conocimiento que yo, y
+          prestar apoyo a mis compañeros de equipo. Actualmente, me encuentro
+          probando nuevas tecnologías React Native. <br />
         </p>
       </div>
       <SectionContentTitle title="Mí experiencia" />
@@ -44,49 +41,43 @@ export default function AboutSection() {
         <p className="style-content exp-title">
           Web Developer- Subdir. de Obras Vialidad M.O.P.
         </p>
-        <p className="style-content">Dic. 2019 – actualidad</p>
-        <p className="style-content task-title">
-          Desarrollador Web en el Departamento de Adm. y Gestión de Contratos.
-          Los desafíos más importantes son implementar metodología de trabajo
-          para la gestión del proyecto, priorización de requerimientos, y
-          desarrollo de funcionalidades. Adaptarme a framework de Front End ya
-          definido (MCV5 .Net), y aportar mejoras e innovaciones para la
-          transformación digital de procesos administrativos del departamento.
-        </p>
+        <p className="style-content">Dic. 2019 – Presente</p>
         <p className="style-content task-title func-title">Logros:</p>
         <ul className="task-list">
           <li>
-            Implementar parte del framework de scrum, basándose en el contexto
-            del departamento, obteniendo muy buenos resultados.
+            Lidero el desarrollo de nuevo sistema para administración de
+            contratos nacional.
           </li>
           <li>
-            Dar solución a problemas de interfaces de usuario en sistema
+            Mantención, optimización y extensión de funcionalidades de sistema
             heredado.
           </li>
           <li>
-            Logro mejorar la mala percepción de experiencia de usuario con la
-            aplicación.
+            Reducción de un 40% la cantidad de solicitudes de soporte a usuarios
+            respecto a errores en la carga y descarga de documentos del sistema
+            de contratos durante el año 2021. Dicha cifra en lo que va del año
+            2022 alcanza el 70%, mediante la implementación de un mecanismo de
+            control en la UI de 4 módulos que se ejecuta previo al guardado en
+            servidor documental.
           </li>
           <li>
-            Desarrollo de nuevo sistema para administración de contratos
-            nacional.
+            Disminución de un 60% el tiempo del proceso de confección mediante
+            el desarrollo de un módulo para la generación de documentos para
+            cambio de titular de un contrato que permite el llenado dinámico de
+            datos provenientes de la base de datos.
           </li>
           <li>
-            Definición de problemas, objetivos específicos, y métricas de
-            cumplimiento en el desarrollo de nuevas funcionalidades.
+            Reducción de un 80% el tiempo de respuesta en soporte a usuarios
+            sobre documentos mal cargados en sistema, mediante el diseño e
+            implementación de un programa de consola que rastrea todos los
+            documentos de un código de contrato dado, indicando cuáles de estos
+            se deben volver a cargar.
           </li>
           <li>
-            Llevar a cabo las transformaciones digitales exigidas al
-            departamento por la Controlaría General de la República.
-          </li>
-          <li>Interoperabilidad entre sistemas institucionales.</li>
-          <li>
-            Confeccionar épicas, historias de usuario, desglose de tareas, y
-            estimación de esfuerzos.
-          </li>
-          <li>
-            Aplicar conjunto de técnicas, principios y metodologías de buenas
-            prácticas de programación.
+            Stack tecnológico:{" "}
+            <strong>
+              VB.NET, C#, JavaScript, React Js, Db Oracle 11g, TOAD.
+            </strong>
           </li>
         </ul>
       </div>
@@ -95,42 +86,36 @@ export default function AboutSection() {
           Profesional TI - Laboratorio Nacional de Vialidad M.O.P.
         </p>
         <p className="style-content">2009 – 2019</p>
-        <p className="style-content task-title">
-          Etapa profesional en la que fui responsable de liderar proyectos de
-          implementaciones tecnológicas únicas en al país, en algunos casos en
-          base solo a documentación técnica en inglés, y en otros, en conjunto
-          con técnicos pertenecientes a proveedores internacionales. Además,
-          participo en proyectos dentro de equipos multidisciplinarios para el
-          desarrollo de aplicaciones que facilitan la fiscalización, en
-          controles de calidad de parámetros geométricos y estudios teóricos.
-        </p>
         <p className="style-content task-title func-title">Logros:</p>
         <ul className="task-list">
           <li>
-            Desarrollo de software stack HTML, CSS y JavaScript, coordinando
-            requerimientos de 6 sub departamentos del Laboratorio de Vialidad
-            con metodología ágil (SCRUM).
+            Diseñé y desarrollé en conjunto con profesionales de obras civiles,
+            aplicación para el recálculo de cotas a partir de datos en planos
+            AutoCAD. Actualmente, es el mecanismo oficial para obtención de IRI
+            teórico de un camino y evaluación de multas de acuerdo a los
+            resultados.
           </li>
           <li>
-            Desarrollo de aplicación de escritorio para el recálculo de cotas a
-            partir de datos en planos AutoCAD (mecanismo de evaluación de multas
-            vigente en 2022 a nivel nacional).
+            Eliminé la dependencia con software de terceros utilizado para el
+            registro de datos, confección e impresión de credenciales de
+            laboratoristas viales, mediante el desarrollo de una aplicación de
+            escritorio con Python y Tkinter.
           </li>
           <li>
-            Responsable de recibir capacitación de equipos (hardware y
-            software), interactuando con proveedores de Inglaterra, Canadá y
-            Australia, para posteriormente ser responsable del stack y/o
-            capacitar personal interno.
+            Agilicé el proceso de adaptación para nuevos integrantes del
+            departamento mediante la escritura de documentos técnicos y material
+            audiovisual sobre calibración, operación, extracción y proceso de
+            datos de equipos de control de calidad vial.
           </li>
           <li>
-            Líder de equipo en campañas de extracción, automatización en
-            procesos de datos, y desarrollo de entregables al área de análisis
-            estadístico.
+            Reduje en un 50% el tiempo de respuesta a requerimientos de
+            implementación de funcionalidades en plataforma Microsoft SharePoint
+            mediante la realización de capacitaciones para convertirme en
+            administrador del portal dentro del departamento.
           </li>
           <li>
-            Supervisión en instalación de estaciones colectoras de datos,
-            insertas en tramos de prueba (pavimento) en varias regiones del
-            país, para estudios y proyecciones estadísticas.
+            Stack tecnológico:{" "}
+            <strong> HTML, CSS, JavaScript, Python, SQL Server.</strong>
           </li>
         </ul>
       </div>
