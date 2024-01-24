@@ -59,8 +59,8 @@ export default function AboutSection() {
           </li>
           <li>
             Desarrollamos Front-end Angular para consentimiento del cliente,
-            proporcionando una interfaz intuitiva para la autorizar el compartir
-            datos financieros.
+            proporcionando una interfaz intuitiva para autorizar el compartir
+            sus datos financieros.
           </li>
           <li>
             Actualmente, trabajamos en la expansión de servicios hacia la
@@ -114,6 +114,10 @@ export default function AboutSection() {
             AutoCAD. Actualmente, es el mecanismo oficial para obtención de IRI
             teórico de un camino y evaluación de multas de acuerdo a los
             resultados.
+          </li>
+          <li>
+            Stack tecnológico:{" "}
+            <strong>HTML, CSS, JavaScript, Python, SQL Server.</strong>
           </li>
         </ul>
       </div>
