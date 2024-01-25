@@ -105,7 +105,7 @@ export default function AboutSection() {
         <p className="style-content exp-title">
           Consultor Técnico - Laboratorio Nacional de Vialidad M.O.P.
         </p>
-        <p className="style-content">2009 – 2019</p>
+        <p className="style-content">2016 – 2019</p>
         <p className="style-content task-title func-title">Logros:</p>
         <ul className="task-list">
           <li>
